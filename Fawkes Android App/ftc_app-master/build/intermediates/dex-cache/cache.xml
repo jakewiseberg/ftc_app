@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6da7d9bc8c9a82321450b6b4273d1746b6cade21">
+        <dex dex="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-f65df08072be81acbb276b57060f406c80a56e1f.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2ec6f06847bccfe30fb8f8f75ce888721e4fd275">
+        <dex dex="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-57c1d2d1d93ad553e50be380a1a2bb7ea33923a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2ec6f06847bccfe30fb8f8f75ce888721e4fd275">
+        <dex dex="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-90ec6e4524cc2605810aa5502a65b785f0d04edc.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ad4adcdf8eb6ff2b3b4fe9f1d676f099db621d60">
+        <dex dex="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-630f5f862131de90abfdc3c600d93b7b06d83c6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6da7d9bc8c9a82321450b6b4273d1746b6cade21">
+        <dex dex="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-2815ca2707835b9cc15caee0b5e0664f99ab3393.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55ecd0b0517650a2cffd06137a40de8af3bbbde3">
+        <dex dex="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-2d29de7578e7555d86b96fe31cc72d32905ac5bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\ModernRobotics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ad4adcdf8eb6ff2b3b4fe9f1d676f099db621d60">
+        <dex dex="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-56b45b735aeb202893e2c9c2e2f597073d9fa0d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebf8372b5bc9dc9f596ed438df36481099d51c41">
+        <dex dex="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-ac26a028530c294d7ffbe7c365af1e2482af10f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ebf8372b5bc9dc9f596ed438df36481099d51c41">
+        <dex dex="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-fad003f0496cb90b449888662f32a313372fab09.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\Hardware-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55ecd0b0517650a2cffd06137a40de8af3bbbde3">
+        <dex dex="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-a404a38916d614d7f00d28ac80bd2ecc952338a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23c74caa2b901107adc4d0aec343c5b8e8be86fb">
+        <dex dex="C:\Users\hello_000\Documents\GitHub\Fawkes\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-dc9921a476a958b524dc50e62d82a8edf5da4a1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\exploded-aar\Analytics-release\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23c74caa2b901107adc4d0aec343c5b8e8be86fb">
+        <dex dex="C:\Users\hello_000\Downloads\Fawkes_Android_App-2016-01-15\Fawkes Android App\ftc_app-master\FawkesRC\build\intermediates\pre-dexed\debug\classes-2f8f04a32d3a9756032fbd664f7c140688b5bf98.jar" />
+    </item>
+
+</items>
