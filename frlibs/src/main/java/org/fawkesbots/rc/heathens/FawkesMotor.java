@@ -16,6 +16,10 @@ public class FawkesMotor implements DcMotor {
     protected int portNumber;
     protected Direction direction;
     protected RunMode mode;
+    protected double min=-1,max=1;
+    public FawkesMotor setBounds(double min, double max){
+        this.min=min; this.max=max; return this;
+    }
 
     public FawkesMotor(DcMotor motor){
         this(motor.getController(), motor.getPortNumber());
@@ -175,5 +179,11 @@ public class FawkesMotor implements DcMotor {
 
     public RunMode getMode() {
         return this.controller.getMotorMode(this.portNumber);
+    }
+
+    public synchronized FawkesMotor power(double pwr) {
+        pwr=(pwr<this.min)?this.min:(pwr>this.max)?this.max:pwr;
+        this.setPower(pwr);
+        return this;
     }
 }
