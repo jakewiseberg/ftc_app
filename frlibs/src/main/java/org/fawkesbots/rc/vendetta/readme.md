@@ -47,6 +47,7 @@ public class HardwareClawbot extends HardwareTank {
 ```
 
 ##How to use Autonomous
+AUTONOMOUS CLASS IS NOT FINISHED--DO NOT RUN OR YOU WILL ENCOUNTER PROBLEMS!
 You can use the Autonomous class similarly to the OpMode.
 Instead of defining loop(), define autonomous() which will only run once.
 
@@ -54,4 +55,7 @@ Instead of defining loop(), define autonomous() which will only run once.
 ##Gyro
 Gyro is still buggy. Basically, create a Gyro object, and call .init() on it.
 Then, check the orientation[0] value. It is recommended to calculate drift and convert to degrees.
-The gyro is still buggy, so far clockwise turning works and only 90 degrees as "-45" degrees (appr.)
+The gyro is still buggy. GyroTest.java under tests contains a working example.
+In this example, -30 degrees is left. 270 degrees is right. -70 is 180 degrees. 0 is home.
+I do not know why this is. Make sure to steady the phone when using this.
+Reboot if your values are jumpy.

@@ -1,5 +1,6 @@
 package org.fawkesbots.rc.vendetta.Tests;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import org.fawkesbots.rc.vendetta.Autonomous;
@@ -8,15 +9,17 @@ import org.fawkesbots.rc.vendetta.Gyro;
 /**
  * Created by hello_000 on 10/23/2016.
  */
+@Disabled
 @TeleOp(
         name="GyroTest Linear",group="Tests"
 )
 public class GyroTest_Linear extends Autonomous {
     public Gyro Dante;
     public float theta, drift=0, readings=0;
-    public void init() {
+    public void initialize() {
         Dante = new Gyro(hardwareMap);
         Dante.init();
+        super.init();
     }
 
     public void calibrate() {
@@ -35,7 +38,7 @@ public class GyroTest_Linear extends Autonomous {
     public void autonomous() {
         calibrate();
         getTheta();
-        while(theta>-45.0f) {
+        while(Math.abs(theta+30.0f)>3.0f) {
             getTheta();
         }
         telemetry.addData("Turned","90 degrees clockwise");

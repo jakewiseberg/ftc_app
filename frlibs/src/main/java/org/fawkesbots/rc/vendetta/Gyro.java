@@ -20,6 +20,7 @@ public class Gyro implements SensorEventListener {
     float[] Rmat = new float[9];
     float[] R2 = new float[9];
     float[] Imat = new float[9];
+    float[] oData = new float[3];
     boolean haveGrav = false;
     boolean haveAccel = false;
     boolean haveMag = false;
@@ -34,9 +35,11 @@ public class Gyro implements SensorEventListener {
         Sensor gsensor = virgil.getDefaultSensor(Sensor.TYPE_GRAVITY);
         Sensor asensor = virgil.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         Sensor msensor = virgil.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+        Sensor osensor = virgil.getDefaultSensor(Sensor.TYPE_ORIENTATION);
         virgil.registerListener(this, gsensor, SensorManager.SENSOR_DELAY_UI);
         virgil.registerListener(this, asensor, SensorManager.SENSOR_DELAY_UI);
         virgil.registerListener(this, msensor, SensorManager.SENSOR_DELAY_UI);
+        virgil.registerListener(this, osensor, SensorManager.SENSOR_DELAY_UI);
         return true;
     }
     public boolean stop() {
@@ -68,6 +71,10 @@ public class Gyro implements SensorEventListener {
                 mData[2] = event.values[2];
                 haveMag = true;
                 break;
+            case Sensor.TYPE_ORIENTATION:
+                oData[0] = event.values[0];
+                oData[1] = event.values[1];
+                oData[2] = event.values[2];
             default:
                 return;
         }
@@ -78,6 +85,11 @@ public class Gyro implements SensorEventListener {
                     SensorManager.AXIS_Y, SensorManager.AXIS_MINUS_X, R2);
             SensorManager.getOrientation(R2, orientation);
         }
+        Log.e(TAG,"Gyro:\n" +
+                        "pitch: "+oData[0]+
+                        "\nroll: "+oData[1]+
+                        "\nyaw: "+oData[2]
+        );
     }
 
 }
