@@ -10,71 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf148a95-49b5-40f5-bb1d-2dee15e063c5" name="Default" comment="made third container for libraries">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/DefSentinel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareMecanum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareOutreach.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareTank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Mecanum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Outreach.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Tank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Tanker.java" />
-      <change type="DELETED" beforePath="C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\frlibs\build\generated\source\buildConfig\androidTest\debug\com\qualcomm\ftcrobotcontroller\test\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\frlibs\build\generated\source\buildConfig\debug\org\fawkesbots\rc\heathens\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\frlibs\build\generated\source\r\debug\org\fawkesbots\rc\heathens\R.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\frlibs\src\main\java\org\fawkesbots\rc\heathens\FawkesMotor.java" afterPath="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/FawkesMotor.java" />
-      <change type="MOVED" beforePath="C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\frlibs\src\main\java\org\fawkesbots\rc\heathens\Sentinel.java" afterPath="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Sentinel.java" />
-      <change type="MOVED" beforePath="C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\frlibs\src\main\java\org\fawkesbots\rc\heathens\readme.md" afterPath="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/outputs/aar/FtcRobotController-debug.aar" afterPath="$PROJECT_DIR$/FtcRobotController/build/outputs/aar/FtcRobotController-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/outputs/aar/FtcRobotController-release.aar" afterPath="$PROJECT_DIR$/FtcRobotController/build/outputs/aar/FtcRobotController-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/frlibs/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/FawkesRC.iml" afterPath="$PROJECT_DIR$/FawkesRC/FawkesRC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build.gradle" afterPath="$PROJECT_DIR$/frlibs/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build.release.gradle" afterPath="$PROJECT_DIR$/FawkesRC/build.release.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/frlibs.iml" afterPath="$PROJECT_DIR$/frlibs/frlibs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/FawkesRC/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/menu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/incremental/packageReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/raw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/blame/res/release/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/debug/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/res/values/values.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/androidTest/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/release/values/values.xml" afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/res/merged/release/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/frlibs/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/xml.json" afterPath="$PROJECT_DIR$/FawkesRC/build/intermediates/blame/res/debug/single/xml.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md" afterPath="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md" />
     </list>
     <ignored path="ftc_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareTank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1103#1104#0" expanded="true" />
@@ -154,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mecanum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Mecanum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Mecanum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36363637">
-              <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.1948051">
+              <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -3682,6 +3628,7 @@
         <option value="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Sentinel.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareTank.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Mecanum.java" />
+        <option value="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md" />
       </list>
     </option>
   </component>
@@ -4468,13 +4415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4728,28 +4668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareTank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Sentinel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4774,8 +4692,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Mecanum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637">
-          <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/HardwareTank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1948051">
+          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
           <folding />
         </state>
       </provider>
