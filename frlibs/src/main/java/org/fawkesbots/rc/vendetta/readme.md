@@ -45,3 +45,7 @@ You can now extend this class in the future.
 )
 public class HardwareClawbot extends HardwareTank {
 ```
+
+##How to use Autonomous
+You can use the Autonomous class similarly to the OpMode.
+Instead of defining loop(), define autonomous() which will only run once.

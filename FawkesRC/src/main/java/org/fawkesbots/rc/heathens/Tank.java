@@ -4,11 +4,14 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import org.fawkesbots.rc.vendetta.*;
-@TeleOp(name="Outreach", group="Outreach Drive")
 
 /**
  * Created by hello_000 on 10/23/2016.
  */
+@TeleOp (
+        name="Tank",
+        group="Basic Drive"
+)
 public class Tank extends OpMode {
     public HardwareTank Gargoyle;
     public void init() {

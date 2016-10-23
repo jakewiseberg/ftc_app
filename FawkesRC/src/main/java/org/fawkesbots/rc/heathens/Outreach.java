@@ -8,7 +8,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.fawkesbots.rc.vendetta.*;
-@TeleOp(name="Outreach", group="Outreach Drive")
+@TeleOp(name="Outreach", group="Extra")
 /**
  * Created by hello_000 on 10/1/2016.
  */
