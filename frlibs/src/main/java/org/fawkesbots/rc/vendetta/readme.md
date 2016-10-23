@@ -49,3 +49,9 @@ public class HardwareClawbot extends HardwareTank {
 ##How to use Autonomous
 You can use the Autonomous class similarly to the OpMode.
 Instead of defining loop(), define autonomous() which will only run once.
+
+#Sensors
+##Gyro
+Gyro is still buggy. Basically, create a Gyro object, and call .init() on it.
+Then, check the orientation[0] value. It is recommended to calculate drift and convert to degrees.
+The gyro is still buggy, so far clockwise turning works and only 90 degrees as "-45" degrees (appr.)
