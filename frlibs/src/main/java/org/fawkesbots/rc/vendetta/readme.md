@@ -6,7 +6,7 @@
 - provides simple sensor interfacing and battery checks
 
 ##How to use Sentinel
-1. Add a @DefSentinel and extend the Sentinel class.
+Add a @DefSentinel and extend the Sentinel class.
 ``` java
 @DefSentinel(
     drive="Type of drive",
@@ -14,11 +14,11 @@
 ) //if it is more than just a chassis drive set specialized=true above
 public class HardwareNAME extends Sentinel {
 ```
-2. Write the constructor, pass on a HardwareMap hwMap
+Write the constructor, pass on a HardwareMap hwMap
 ``` java
 public HardwareNAME(HardwareMap hwMap) { super(hwMap); }
 ```
-3. Add any necessary motors as global instance variables and write the hardwareSetup.
+Add any necessary motors as global instance variables and write the hardwareSetup.
 ``` java
 public FawkesMotor motor1, motor2;
 public boolean hardwareSetup() {
@@ -27,7 +27,7 @@ public boolean hardwareSetup() {
     return true;
 }
 ```
-4. Add a drive system.
+Add a drive system.
 ``` java
 public boolean tank(float left, float right) {
         fl.power(left); bl.power(left);
