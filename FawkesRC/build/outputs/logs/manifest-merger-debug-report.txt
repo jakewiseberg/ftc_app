@@ -24,6 +24,16 @@ MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:61:5-93
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:22:5-181:19
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:19:5-24:19
+MERGED from [ftc_app:frlibs:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\frlibs\unspecified\AndroidManifest.xml:15:5-20
+MERGED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:12:5-39:19
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:19:5-46:19
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:18:5-49:19
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:61:5-93
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:22:5-181:19
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:19:5-24:19
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:61:5-93
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:22:5-181:19
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:19:5-24:19
 	android:label
 		ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:15:9-41
 	android:allowBackup
@@ -53,6 +63,22 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 MERGED from [:ModernRobotics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ModernRobotics-release\AndroidManifest.xml:5:5-7:41
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:5:5-7:41
 MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\AndroidManifest.xml:5:5-7:41
+MERGED from [ftc_app:frlibs:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\frlibs\unspecified\AndroidManifest.xml:11:5-13:41
+MERGED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:7:5-9:41
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:Hardware-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Hardware-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:8:5-10:41
+MERGED from [:ModernRobotics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ModernRobotics-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:Hardware-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Hardware-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:8:5-10:41
+MERGED from [:ModernRobotics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ModernRobotics-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
 		INJECTED from C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\src\main\AndroidManifest.xml
@@ -61,6 +87,7 @@ MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\
 		INJECTED from C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\src\main\AndroidManifest.xml
 activity#org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity
 ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:17:9-34:20
+MERGED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:17:9-34:20
 	android:label
 		ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:20:13-45
 	android:configChanges
@@ -87,12 +114,14 @@ ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents
 		ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:28:25-87
 meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
 ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:31:13-33:57
+MERGED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:31:13-33:57
 	android:resource
 		ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:33:17-54
 	android:name
 		ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:32:17-79
 service#com.qualcomm.ftccommon.FtcRobotControllerService
 ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:36:9-38:38
+MERGED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:36:9-38:38
 	android:enabled
 		ADDED from [ftc_app:FtcRobotController:unspecified] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\ftc_app\FtcRobotController\unspecified\AndroidManifest.xml:38:13-35
 	android:name
@@ -101,16 +130,25 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:11:5-76
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:9:5-11:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:9:5-11:35
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:11:5-76
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:9:5-11:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:9:5-11:35
 	android:required
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:11:9-32
 	android:name
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:11:22-73
 uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:12:5-74
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:12:5-74
 	android:name
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:12:22-71
 uses-permission#android.permission.CHANGE_WIFI_STATE
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:13:5-76
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:12:5-14:35
+MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\AndroidManifest.xml:9:5-76
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:12:5-14:35
+MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\AndroidManifest.xml:9:5-76
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:13:5-76
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:12:5-14:35
 MERGED from [:WirelessP2p-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\WirelessP2p-release\AndroidManifest.xml:9:5-76
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:12:5-14:35
@@ -123,12 +161,20 @@ uses-permission#android.permission.CHANGE_NETWORK_STATE
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:14:5-79
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:18:5-20:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:18:5-20:35
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:14:5-79
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:18:5-20:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:18:5-20:35
 	android:required
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:20:9-32
 	android:name
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.INTERNET
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:15:5-67
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:21:5-23:35
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:12:5-14:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:21:5-23:35
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:12:5-14:35
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:15:5-67
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:21:5-23:35
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:12:5-14:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:21:5-23:35
@@ -143,16 +189,23 @@ MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:15:5-17:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:15:5-17:35
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:15:5-17:35
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:16:5-79
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:15:5-17:35
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:15:5-17:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:15:5-17:35
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:15:5-17:35
 	android:required
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:17:9-32
 	android:name
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.BLUETOOTH
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:17:5-68
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:17:5-68
 	android:name
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:17:22-65
 activity#org.firstinspires.inspection.DsInspectionActivity
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:20:9-29:20
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:20:9-29:20
 	android:label
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:23:13-56
 	android:configChanges
@@ -171,6 +224,7 @@ ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:27:27-73
 activity#org.firstinspires.inspection.RcInspectionActivity
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:30:9-39:20
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:30:9-39:20
 	android:label
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:33:13-56
 	android:configChanges
@@ -185,6 +239,7 @@ ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:35:25-110
 receiver#org.firstinspires.inspection.DeviceNameReceiver
 ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:41:9-45:20
+MERGED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:41:9-45:20
 	android:exported
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:44:13-36
 	android:enabled
@@ -193,6 +248,13 @@ ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:Inspection-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Inspection-release\AndroidManifest.xml:42:13-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:11:5-13:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:24:5-26:35
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:12:5-14:35
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:9:5-11:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:24:5-26:35
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:12:5-14:35
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:9:5-11:35
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:11:5-13:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:24:5-26:35
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:12:5-14:35
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:9:5-11:35
@@ -209,12 +271,18 @@ MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:15:5-17:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:27:5-29:35
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:15:5-17:35
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:14:5-16:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:27:5-29:35
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:15:5-17:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:27:5-29:35
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:15:5-17:35
 	android:required
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:16:9-32
 	android:name
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:15:9-64
 activity#com.google.blocks.ftcrobotcontroller.ProgrammingModeActivity
 ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:19:9-28:20
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:19:9-28:20
 	android:label
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:22:13-62
 	android:configChanges
@@ -229,6 +297,7 @@ ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_ap
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:24:25-121
 activity#com.google.blocks.ftcdriverstation.RemoteProgrammingModeActivity
 ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:29:9-38:20
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:29:9-38:20
 	android:label
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:32:13-62
 	android:configChanges
@@ -243,6 +312,7 @@ ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_ap
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:34:25-125
 activity#com.google.blocks.ftcrobotcontroller.BlocksActivity
 ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:39:9-48:20
+MERGED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:39:9-48:20
 	android:label
 		ADDED from [:Blocks-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Blocks-release\AndroidManifest.xml:42:13-52
 	android:configChanges
@@ -260,12 +330,18 @@ ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:18:5-20:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:30:5-32:35
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:18:5-20:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:30:5-32:35
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:18:5-20:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:30:5-32:35
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:18:5-20:35
 	android:required
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:32:9-32
 	android:name
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:31:9-57
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:39:5-41:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:39:5-41:35
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:39:5-41:35
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:39:5-41:35
 	android:required
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:41:9-32
@@ -274,25 +350,35 @@ MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 uses-permission#android.permission.CAMERA
 ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:42:5-65
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:42:5-65
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:42:5-65
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:42:5-65
 	android:name
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:42:22-62
 uses-feature#android.hardware.usb.accessory
 ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:44:5-67
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:44:5-67
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:44:5-67
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:44:5-67
 	android:name
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:44:19-64
 uses-feature#0x00020000
 ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:45:5-54
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:45:5-54
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:45:5-54
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:45:5-54
 	android:glEsVersion
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:45:19-51
 uses-feature#android.hardware.camera
 ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:59:5-60
 MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:59:5-60
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:59:5-60
+MERGED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:59:5-60
 	android:name
 		ADDED from [:RobotCore-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\RobotCore-release\AndroidManifest.xml:59:19-57
 activity#com.qualcomm.ftccommon.FtcRobotControllerSettingsActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:27:9-36:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:27:9-36:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:27:9-36:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:27:9-36:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:30:13-54
@@ -308,6 +394,8 @@ ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:32:25-118
 activity#com.qualcomm.ftccommon.configuration.FtcLoadFileActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:37:9-47:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:37:9-47:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:37:9-47:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:37:9-47:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:41:13-55
@@ -326,6 +414,8 @@ ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 activity#com.qualcomm.ftccommon.configuration.ConfigureFromTemplateActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:48:9-58:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:48:9-58:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:48:9-58:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:48:9-58:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:52:13-70
 	android:configChanges
@@ -342,6 +432,8 @@ ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:54:25-127
 activity#com.qualcomm.ftccommon.ViewLogsActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:59:9-69:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:59:9-69:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:59:9-69:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:59:9-69:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:63:13-55
@@ -360,6 +452,8 @@ ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 activity#com.qualcomm.ftccommon.configuration.FtcConfigurationActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:70:9-74:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:70:9-74:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:70:9-74:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:70:9-74:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:73:13-45
 	android:configChanges
@@ -368,6 +462,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:71:13-89
 activity#com.qualcomm.ftccommon.configuration.FtcNewFileActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:75:9-79:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:75:9-79:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:75:9-79:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:75:9-79:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:78:13-45
@@ -378,6 +474,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.ConfigWifiDirectActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:80:9-83:73
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:80:9-83:73
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:80:9-83:73
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:80:9-83:73
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:83:13-70
 	android:exported
@@ -386,6 +484,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:81:13-75
 activity#com.qualcomm.ftccommon.FtcWifiChannelSelectorActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:84:9-93:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:84:9-93:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:84:9-93:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:84:9-93:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:87:13-73
@@ -402,6 +502,8 @@ ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 activity#com.qualcomm.ftccommon.AboutActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:94:9-102:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:94:9-102:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:94:9-102:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:94:9-102:20
 	android:label
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:96:13-51
 	android:name
@@ -415,6 +517,8 @@ ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc
 activity#com.qualcomm.ftccommon.configuration.EditSwapUsbDevices
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:103:9-108:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:103:9-108:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:103:9-108:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:103:9-108:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:107:13-54
 	android:label
@@ -425,6 +529,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:104:13-83
 activity#com.qualcomm.ftccommon.configuration.EditMotorControllerActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:109:9-114:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:109:9-114:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:109:9-114:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:109:9-114:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:113:13-54
@@ -437,6 +543,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.configuration.EditMotorListActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:115:9-120:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:115:9-120:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:115:9-120:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:115:9-120:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:119:13-54
 	android:label
@@ -447,6 +555,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:116:13-86
 activity#com.qualcomm.ftccommon.configuration.EditServoControllerActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:121:9-126:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:121:9-126:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:121:9-126:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:121:9-126:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:125:13-67
@@ -459,6 +569,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.configuration.EditServoListActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:127:9-132:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:127:9-132:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:127:9-132:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:127:9-132:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:131:13-67
 	android:label
@@ -469,6 +581,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:128:13-86
 activity#com.qualcomm.ftccommon.configuration.EditLegacyModuleControllerActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:133:9-138:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:133:9-138:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:133:9-138:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:133:9-138:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:137:13-67
@@ -481,6 +595,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.configuration.EditMatrixControllerActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:139:9-144:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:139:9-144:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:139:9-144:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:139:9-144:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:143:13-67
 	android:label
@@ -491,6 +607,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:140:13-93
 activity#com.qualcomm.ftccommon.configuration.EditDeviceInterfaceModuleActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:145:9-150:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:145:9-150:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:145:9-150:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:145:9-150:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:149:13-67
@@ -503,6 +621,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.configuration.EditPWMDevicesActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:151:9-156:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:151:9-156:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:151:9-156:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:151:9-156:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:155:13-67
 	android:label
@@ -513,6 +633,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:152:13-87
 activity#com.qualcomm.ftccommon.configuration.EditAnalogInputDevicesActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:157:9-162:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:157:9-162:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:157:9-162:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:157:9-162:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:161:13-67
@@ -525,6 +647,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.configuration.EditDigitalDevicesActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:163:9-168:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:163:9-168:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:163:9-168:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:163:9-168:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:167:13-67
 	android:label
@@ -535,6 +659,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:164:13-91
 activity#com.qualcomm.ftccommon.configuration.EditI2cDevicesActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:169:9-174:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:169:9-174:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:169:9-174:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:169:9-174:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:173:13-67
@@ -547,6 +673,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 activity#com.qualcomm.ftccommon.configuration.EditAnalogOutputDevicesActivity
 ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:175:9-180:20
 MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:175:9-180:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:175:9-180:20
+MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:175:9-180:20
 	android:windowSoftInputMode
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:179:13-67
 	android:label
@@ -557,6 +685,8 @@ MERGED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ft
 		ADDED from [:FtcCommon-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\FtcCommon-release\AndroidManifest.xml:176:13-96
 uses-library#android.test.runner
 ADDED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:23:9-60
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:23:9-60
+MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:23:9-60
 MERGED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:23:9-60
 	android:name
 		ADDED from [:Analytics-release:] C:\Users\hello_000\Documents\GitHub\FawkeTW\ftc_app\FawkesRC\build\intermediates\exploded-aar\Analytics-release\AndroidManifest.xml:23:23-57

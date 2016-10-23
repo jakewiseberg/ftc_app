@@ -1,11 +1,7 @@
-package org.fawkesbots.rc.heathens;
+package org.fawkesbots.rc.vendetta;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorController;
-import com.qualcomm.robotcore.hardware.DcMotor.RunMode;
-import com.qualcomm.robotcore.hardware.DcMotor.ZeroPowerBehavior;
-import com.qualcomm.robotcore.hardware.DcMotorSimple.Direction;
-import com.qualcomm.robotcore.hardware.HardwareDevice.Manufacturer;
 
 /**
  * Created by hello_000 on 9/28/2016.
@@ -16,7 +12,7 @@ public class FawkesMotor implements DcMotor {
     protected int portNumber;
     protected Direction direction;
     protected RunMode mode;
-    protected double min=-1,max=1;
+    protected double min=-1,max=1,deadzone=.15;
     public FawkesMotor setBounds(double min, double max){
         this.min=min; this.max=max; return this;
     }
@@ -182,8 +178,15 @@ public class FawkesMotor implements DcMotor {
     }
 
     public synchronized FawkesMotor power(double pwr) {
-        pwr=(pwr<this.min)?this.min:(pwr>this.max)?this.max:pwr;
+        pwr = (pwr < this.min) ? this.min : (pwr > this.max) ? this.max : pwr;
+        pwr = (Math.abs(pwr)<this.deadzone)?0:pwr;
         this.setPower(pwr);
         return this;
     }
+
+    public synchronized FawkesMotor unencode() {
+        this.setMode(RunMode.RUN_WITHOUT_ENCODER);
+        return this;
+    }
+
 }
