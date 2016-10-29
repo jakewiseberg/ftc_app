@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\drawable-hdpi-v4\\ic_launcher.png"
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_shape.xml",
-        "source": "C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable-hdpi-v4\\button_shape.xml"
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\button_shape.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable-hdpi-v4\\button_shape.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/drawable-hdpi-v4/button_shape.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\drawable-hdpi-v4\\ic_launcher.png"
     }
 ]

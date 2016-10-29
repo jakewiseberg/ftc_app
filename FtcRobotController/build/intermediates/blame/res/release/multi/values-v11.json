@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+        "outputFile": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,33 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1826,
+                        "endLine": 41,
+                        "endColumn": 12,
+                        "endOffset": 1958
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -26,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+        "outputFile": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +64,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,

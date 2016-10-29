@@ -1,5 +1,6 @@
 package org.fawkesbots.rc.heathens;
 
+import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.fawkesbots.rc.vendetta.FawkesMotor;
@@ -30,6 +31,33 @@ public class HardwareTank extends Sentinel {
         fr = retrieveMotor("front right").unencode().power(0);
         bl = retrieveMotor("back left").unencode().power(0);
         br = retrieveMotor("back right").unencode().power(0);
+        return true;
+    }
+
+    public boolean resetEncoders() {
+        this.fl.setMode(FawkesMotor.RunMode.STOP_AND_RESET_ENCODER);
+        this.fr.setMode(FawkesMotor.RunMode.STOP_AND_RESET_ENCODER);
+        return true;
+    }
+
+    public boolean setupEncoders() {
+        this.fl.setMode(FawkesMotor.RunMode.RUN_USING_ENCODER);
+        this.fr.setMode(FawkesMotor.RunMode.RUN_USING_ENCODER);
+        return true;
+    }
+
+    public boolean encodePosition(float l, float r) {
+        this.fl.setTargetPosition(this.fl.getCurrentPosition() + (int) l);
+        this.fr.setTargetPosition(this.fr.getCurrentPosition() + (int) r);
+        return true;
+    }
+    public boolean encodePosition(double l, double r) { return encodePosition((float)l, (float) r); }
+    public boolean encodePosition(float a) {return encodePosition(a,a);}
+    public boolean encodePosition(double a) {return encodePosition(a,a);}
+
+    public boolean prepEncoders() {
+        this.fl.setMode(FawkesMotor.RunMode.RUN_TO_POSITION);
+        this.fr.setMode(FawkesMotor.RunMode.RUN_TO_POSITION);
         return true;
     }
     public HardwareTank(HardwareMap hwMap) {

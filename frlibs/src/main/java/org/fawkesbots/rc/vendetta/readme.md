@@ -58,4 +58,4 @@ Then, check the orientation[0] value. It is recommended to calculate drift and c
 The gyro is still buggy. GyroTest.java under tests contains a working example.
 In this example, -30 degrees is left. 270 degrees is right. -70 is 180 degrees. 0 is home.
 I do not know why this is. Make sure to steady the phone when using this.
-Reboot if your values are jumpy.
+Reboot if your values are jumpy.2
