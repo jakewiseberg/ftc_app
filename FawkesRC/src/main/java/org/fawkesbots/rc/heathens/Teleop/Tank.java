@@ -6,9 +6,6 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.fawkesbots.rc.heathens.Hardware.HardwareTank;
 import org.fawkesbots.rc.vendetta.*;
 
-/**
- * Created by hello_000 on 10/23/2016.
- */
 @TeleOp (
         name="Tank",
         group="Basic Drive"

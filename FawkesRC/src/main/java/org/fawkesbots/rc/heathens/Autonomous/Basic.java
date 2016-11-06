@@ -2,7 +2,7 @@ package org.fawkesbots.rc.heathens.Autonomous;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import org.fawkesbots.rc.heathens.*;
+import org.fawkesbots.rc.heathens.Hardware.HardwareTank;
 import org.fawkesbots.rc.vendetta.Autonomous;
 
 /**

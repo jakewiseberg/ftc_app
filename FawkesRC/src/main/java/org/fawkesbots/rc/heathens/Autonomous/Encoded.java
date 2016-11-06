@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-import org.fawkesbots.rc.heathens.HardwareTank;
+import org.fawkesbots.rc.heathens.Hardware.HardwareTank;
 
 /**
  * Created by Priansh on 10/29/16.

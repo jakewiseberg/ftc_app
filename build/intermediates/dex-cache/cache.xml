@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/frlibs/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2a6b75ba57ef8fcf6ef90d92db2c1ed3c8143856">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/ftc_app-frlibs-unspecified_f8050e147de9795142d9e4e0f6b593f5c1912f20.jar" />
+    </item>
+
+</items>
