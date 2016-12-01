@@ -38,8 +38,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.res.Configuration;
+import android.hardware.Camera;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbManager;
+import android.media.Image;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -48,6 +50,8 @@ import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.ImageButton;
@@ -133,6 +137,22 @@ public class FtcRobotControllerActivity extends Activity {
 
   protected FtcEventLoop eventLoop;
   protected Queue<UsbDevice> receivedUsbAttachmentNotifications;
+
+  public Camera cam;
+  public SurfaceView preview;
+  public SurfaceHolder previewHolder;
+
+  public Image picture(Context appContext) {
+    Camera cam = Camera.open();
+    preview=(SurfaceView)findViewById(R.id.sfView);
+    previewHolder=preview.getHolder();
+//    previewHolder.addCallback(surfaceCallback);
+    previewHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+
+    return null;
+  }
+
+
 
   protected class RobotRestarter implements Restarter {
 
@@ -499,6 +519,10 @@ public class FtcRobotControllerActivity extends Activity {
     controllerService.setupRobot(eventLoop, idleLoop);
 
     passReceivedUsbAttachmentsToEventLoop();
+  }
+
+  public FtcEventLoop getEventLoop() {
+    return this.eventLoop;
   }
 
   protected OpModeRegister createOpModeRegister() {

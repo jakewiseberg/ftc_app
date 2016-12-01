@@ -18,6 +18,10 @@ public abstract class Sentinel implements BatteryChecker.BatteryWatcher {
         return new FawkesMotor(this.hardwareMap.dcMotor.get(name)).setBounds(this.min,this.max);
     }
 
+    public FawkesServo retrieveServo(String name) {
+        return new FawkesServo(this.hardwareMap.servo.get(name));
+    }
+
     public void updateBatteryLevel(float a) {
         this.BATTERY_LEVEL = a;
     }
@@ -26,6 +30,7 @@ public abstract class Sentinel implements BatteryChecker.BatteryWatcher {
         Log.e("Sentinel","Making");
         this.hardwareMap = hardwareMap;
         Log.e("Sentinel","2");
+     //   this.batman = new BatteryChecker(hardwareMap.appContext,this,5000);
     }
 
     public boolean monitorBattery() {

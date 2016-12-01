@@ -1,5 +1,7 @@
 package org.fawkesbots.rc.vendetta;
 
+import android.graphics.Color;
+
 public class ARGB {
     private int a;
     private int r;
@@ -21,6 +23,16 @@ public class ARGB {
             default: col=0; break;
         }
         return col; //returns 1 for red, -1 for blue
+    }
+
+    public static int convertToColor(char color) {
+        switch(color) {
+            case 'b': return Color.BLUE;
+            case 'r': return Color.RED;
+            case 'o': return Color.BLACK;
+            case 'y': return Color.YELLOW;
+        }
+        return Color.BLACK;
     }
 
     public ARGB set(int c){
