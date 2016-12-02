@@ -1,9 +1,13 @@
 package org.fawkesbots.rc.heathens.Hardware;
 
+import android.util.Log;
+
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.fawkesbots.rc.heathens.DefSentinel;
+import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 /**
  * Created by Priansh on 11/30/16.
@@ -19,16 +23,18 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     float fl_target=0, fr_target=0, bl_target=0, br_target=0;
     public float COUNTS_PER_INCH = 0;
 
+    Telemetry tel;
 
     float GEAR_REDUCTION = 4;
-    float WHEEL_DIAMETER = 6; //inches, smaller than my dick
+    float WHEEL_DIAMETER = 6;
 /*  GET THIS MEASUREMENT */
 
     public float ticks = 1440;
 /* NORMAL = 1120, NEVEREST40 = 1440, ETC */
 
-    public HardwareMecanumWithEncoders(HardwareMap hwMap) {
+    public HardwareMecanumWithEncoders(HardwareMap hwMap, Telemetry tele) {
         super(hwMap);
+        tel=tele;
         COUNTS_PER_INCH = (float)((ticks*GEAR_REDUCTION)/(WHEEL_DIAMETER * Math.PI));
     }
 
@@ -66,19 +72,35 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean forwardEncoded(float inches, float speed) {
-        moveEncoders(inches,inches,inches,inches,speed,-speed,speed,-speed);
+        setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?1:0,(inches>0)?0:1);
+        moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
+        return true;
+    }
+
+    public boolean setSides(int a,int b, int c, int d) {
+        fl.setDirection((a==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
+        fr.setDirection((b==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
+        bl.setDirection((c==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
+        br.setDirection((d==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
         return true;
     }
 
     public boolean strafeEncoded(float inches, float speed) {
-        moveEncoders(inches,inches,inches,inches,-speed,speed,speed,-speed);
+        setSides((inches>0)?0:1,(inches>0)?0:1,(inches>0)?1:0,(inches>0)?1:0);
+        moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
         return true;
+    }
+
+    public String logEncoders() {
+        Log.e("Encoders", "Front left: " + fl.getCurrentPosition() + "\nFront right: " + fr.getCurrentPosition()
+                + "\nBack left: " + bl.getCurrentPosition() + "\nBack right: " + br.getCurrentPosition());
+        return "Front left: " + fl.getCurrentPosition() + "\nFront right: " + fr.getCurrentPosition()
+                + "\nBack left: " + bl.getCurrentPosition() + "\nBack right: " + br.getCurrentPosition();
     }
 
     public boolean moveEncoders(float fl_inches, float fr_inches, float bl_inches, float br_inches,
                                 float fl_speed, float fr_speed, float bl_speed, float br_speed) {
-
-        resetEncoders(); setupEncoders();
+        resetEncoders(); logEncoders(); setupEncoders();
         fl_target = fl.getCurrentPosition() + (fl_inches * COUNTS_PER_INCH);
         bl_target = bl.getCurrentPosition() + (bl_inches * COUNTS_PER_INCH);
         br_target = br.getCurrentPosition() + (br_inches * COUNTS_PER_INCH);
@@ -88,7 +110,8 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
         bl.setTargetPosition((int)bl_target);
         br.setTargetPosition((int)br_target);
         runEncoders();
-        powerAll(fl_speed,-fr_speed,bl_speed,-br_speed);
+        logEncoders();
+        powerAll(Math.abs(fl_speed),Math.abs(fr_speed),Math.abs(bl_speed),Math.abs(br_speed));
         while(checkEncoders()) { }
         powerAll(0,0,0,0);
         return setupEncoders();

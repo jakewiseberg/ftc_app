@@ -3,6 +3,7 @@ package org.fawkesbots.rc.heathens.Teleop;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
+import org.fawkesbots.rc.heathens.Hardware.HardwareCollector;
 import org.fawkesbots.rc.heathens.Hardware.HardwareTank;
 import org.fawkesbots.rc.heathens.Hardware.HardwareTest;
 import org.fawkesbots.rc.vendetta.*;
@@ -12,24 +13,12 @@ import org.fawkesbots.rc.vendetta.*;
         group="rotate a servo"
 )
 public class Rotor extends OpMode {
-    public HardwareTest Gargoyle;
+    public HardwareCollector Gargoyle;
     public void init() {
-        Gargoyle = new HardwareTest(hardwareMap);
+        Gargoyle = new HardwareCollector(hardwareMap);
         Gargoyle.hardwareSetup();
     }
     public void loop() {
-
-        if(gamepad1.a) {
-            Gargoyle.position(1);
-        }
-
-        if(gamepad1.b) {
-            Gargoyle.position(-1);
-        }
-
-        if(gamepad1.x) {
-            Gargoyle.position(0);
-        }
-
+        Gargoyle.collect(gamepad1.left_trigger);
     }
 }

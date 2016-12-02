@@ -20,10 +20,10 @@ public class MecanumEncoded extends LinearOpMode {
 
     @Override
     public void runOpMode() throws InterruptedException {
-        Gargoyle = new HardwareMecanumWithEncoders(hardwareMap);
-        Gargoyle.hardwareSetup();
-        Gargoyle.resetEncoders();
+        Gargoyle = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
+        Gargoyle.hardwareSetup(); Gargoyle.setSides(1,1,1,1);
         waitForStart();
+
         Gargoyle.forwardEncoded(18, 0.7f);
         Gargoyle.strafeEncoded(18,-.7f);
     }
