@@ -26,7 +26,7 @@ public class RoboCat_red extends LinearOpMode {
         Gargoyle.forwardEncoded(24,0.78f);
         Gargoyle.strafeEncoded(-12,0.78f);
         Gargoyle.forwardEncoded(24,0.78f);
-        Gargoyle.rotateEncoded(18,0.78f);
+        Gargoyle.rotateEncoded(-18,0.78f);
         telemetry.addData("Encoders",Gargoyle.logEncoders());
         telemetry.update();
 

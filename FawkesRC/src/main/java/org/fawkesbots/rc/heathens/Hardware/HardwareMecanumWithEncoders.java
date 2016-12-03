@@ -79,16 +79,16 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean setSides(int a,int b, int c, int d) {
-        fl.setDirection((a==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
-        fr.setDirection((b==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
-        bl.setDirection((c == 1) ? DcMotorSimple.Direction.FORWARD : DcMotorSimple.Direction.REVERSE);
-        br.setDirection((d == 1) ? DcMotorSimple.Direction.FORWARD : DcMotorSimple.Direction.REVERSE);
+        fl.setDirection((a==1)?DcMotorSimple.Direction.FORWARD:DcMotorSimple.Direction.REVERSE);
+        fr.setDirection((b==1)?DcMotorSimple.Direction.FORWARD:DcMotorSimple.Direction.REVERSE);
+        bl.setDirection((c==1)?DcMotorSimple.Direction.FORWARD:DcMotorSimple.Direction.REVERSE);
+        br.setDirection((d==1)?DcMotorSimple.Direction.FORWARD:DcMotorSimple.Direction.REVERSE);
         return true;
     }
 
     public boolean strafeEncoded(float inches, float speed) {
     //    setSides((inches > 0)?0:1,(inches > 0)?0:1, (inches > 0)?1:0, (inches > 0)?1:0);
-        moveEncoders(-inches, -inches, inches, inches, speed, speed, speed, speed);
+        moveEncoders(inches, inches, -inches, -inches, speed, speed, speed, speed);
         return true;
     }
 
@@ -118,7 +118,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
         bl.setTargetPosition((int)bl_target);
         br.setTargetPosition((int)br_target);
         runEncoders();
-        logEncoders();
+        //logEncoders();
         powerAll(Math.abs(fl_speed),Math.abs(fr_speed),Math.abs(bl_speed),Math.abs(br_speed));
         while(checkEncoders()) { }
         powerAll(0,0,0,0);
