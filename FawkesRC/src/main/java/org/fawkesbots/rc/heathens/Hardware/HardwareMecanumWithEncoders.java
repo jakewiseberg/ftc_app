@@ -25,11 +25,12 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
 
     Telemetry tel;
 
-    float GEAR_REDUCTION = 4;
-    float WHEEL_DIAMETER = 6;
+    float K_FACTOR = (float)(18.0f/40.0f);
+    float GEAR_REDUCTION = 4.0f*K_FACTOR;
+    float WHEEL_DIAMETER = 6.0f;
 /*  GET THIS MEASUREMENT */
 
-    public float ticks = 1440;
+    public float ticks = 1440.0f;
 /* NORMAL = 1120, NEVEREST40 = 1440, ETC */
 
     public HardwareMecanumWithEncoders(HardwareMap hwMap, Telemetry tele) {
@@ -80,16 +81,23 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     public boolean setSides(int a,int b, int c, int d) {
         fl.setDirection((a==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
         fr.setDirection((b==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
-        bl.setDirection((c==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
-        br.setDirection((d==1)? DcMotorSimple.Direction.FORWARD: DcMotorSimple.Direction.REVERSE);
+        bl.setDirection((c == 1) ? DcMotorSimple.Direction.FORWARD : DcMotorSimple.Direction.REVERSE);
+        br.setDirection((d == 1) ? DcMotorSimple.Direction.FORWARD : DcMotorSimple.Direction.REVERSE);
         return true;
     }
 
     public boolean strafeEncoded(float inches, float speed) {
-        setSides((inches>0)?0:1,(inches>0)?0:1,(inches>0)?1:0,(inches>0)?1:0);
+        setSides((inches > 0) ? 0 : 1, (inches > 0) ? 0 : 1, (inches > 0) ? 1 : 0, (inches > 0) ? 1 : 0);
+        moveEncoders(inches, inches, inches, inches, speed, speed, speed, speed);
+        return true;
+    }
+
+    public boolean rotateEncoded(float inches, float speed) {
+        setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?0:1,(inches>0)?1:0);
         moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
         return true;
     }
+
 
     public String logEncoders() {
         Log.e("Encoders", "Front left: " + fl.getCurrentPosition() + "\nFront right: " + fr.getCurrentPosition()

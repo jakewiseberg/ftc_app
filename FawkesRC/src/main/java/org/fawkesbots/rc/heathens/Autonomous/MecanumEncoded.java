@@ -24,8 +24,10 @@ public class MecanumEncoded extends LinearOpMode {
         Gargoyle.hardwareSetup(); Gargoyle.setSides(1,1,1,1);
         waitForStart();
 
-        Gargoyle.forwardEncoded(18, 0.7f);
-        Gargoyle.strafeEncoded(18,-.7f);
+        Gargoyle.forwardEncoded(18, 0.78f);
+        Gargoyle.strafeEncoded(18,0.78f);
+        Gargoyle.rotateEncoded(18,0.78f);
+
     }
 
 }
