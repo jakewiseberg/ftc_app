@@ -73,8 +73,8 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean forwardEncoded(float inches, float speed) {
-        setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?1:0,(inches>0)?0:1);
-        moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
+    //    setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?1:0,(inches>0)?0:1);
+        moveEncoders(inches,-inches,inches,-inches,speed,speed,speed,speed);
         return true;
     }
 
@@ -87,13 +87,13 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean strafeEncoded(float inches, float speed) {
-        setSides((inches > 0) ? 0 : 1, (inches > 0) ? 0 : 1, (inches > 0) ? 1 : 0, (inches > 0) ? 1 : 0);
-        moveEncoders(inches, inches, inches, inches, speed, speed, speed, speed);
+    //    setSides((inches > 0)?0:1,(inches > 0)?0:1, (inches > 0)?1:0, (inches > 0)?1:0);
+        moveEncoders(-inches, -inches, inches, inches, speed, speed, speed, speed);
         return true;
     }
 
     public boolean rotateEncoded(float inches, float speed) {
-        setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?0:1,(inches>0)?1:0);
+    //    setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?0:1,(inches>0)?1:0);
         moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
         return true;
     }
