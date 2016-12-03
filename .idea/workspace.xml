@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf148a95-49b5-40f5-bb1d-2dee15e063c5" name="Default" comment="made third container for libraries">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/RoboCat_red.java" afterPath="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/RoboCat_red.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ftc_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HardwareMecanumWithEncoders.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HardwareMecanumWithEncoders.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.5699831">
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
               <folding>
                 <element signature="method#resetEncoders#0;class#HardwareMecanumWithEncoders#0" expanded="false" />
                 <element signature="method#setupEncoders#0;class#HardwareMecanumWithEncoders#0" expanded="false" />
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoboCat_red.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoboCat_red.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/RoboCat_red.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63237774">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding />
             </state>
@@ -3603,8 +3603,8 @@
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Teleop/Rotor.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/MecanumEncoded.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/GyroAuton.java" />
-        <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/RoboCat_red.java" />
+        <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java" />
       </list>
     </option>
   </component>
@@ -4868,6 +4868,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/RoboCat_red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4878,21 +4886,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.5699831">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
             <element signature="method#resetEncoders#0;class#HardwareMecanumWithEncoders#0" expanded="false" />
             <element signature="method#setupEncoders#0;class#HardwareMecanumWithEncoders#0" expanded="false" />
             <element signature="method#runEncoders#0;class#HardwareMecanumWithEncoders#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/RoboCat_red.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63237774">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
