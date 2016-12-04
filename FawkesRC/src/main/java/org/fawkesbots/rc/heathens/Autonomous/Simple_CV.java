@@ -28,6 +28,7 @@ public class Simple_CV extends LinearOpMode {
         telemetry.addData("Left/Right",colors[0]+", "+colors[1]);
         telemetry.update();
         Log.e("Cam",colors[0]+", "+colors[1]);
+        Log.e("Cam","completed");
     }
 
 }

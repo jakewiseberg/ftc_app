@@ -86,7 +86,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean strafeEncoded(float inches, float speed) {
-       moveEncoders(inches, inches, -inches, -inches, speed, speed, speed, speed);
+       moveEncoders(-inches, -inches, inches, inches, speed, speed, speed, speed);
         return true;
     }
 

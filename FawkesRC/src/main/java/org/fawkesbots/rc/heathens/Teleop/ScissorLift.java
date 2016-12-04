@@ -17,6 +17,6 @@ public class ScissorLift extends OpMode {
         Gargoyle.hardwareSetup();
     }
     public void loop() {
-        Gargoyle.rise(gamepad1.right_trigger);
+        Gargoyle.rise(gamepad2.left_stick_y);
     }
 }
