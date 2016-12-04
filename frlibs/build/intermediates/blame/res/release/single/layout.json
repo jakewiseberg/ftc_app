@@ -8,12 +8,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\darker_gray_line.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/template_info.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/template_info.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\layout\\activity_ftc_wifi_channel_selector.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_ftc_wifi_channel_selector.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/template_info.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/template_info.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/servo_controller_banner.xml",
@@ -24,12 +24,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\digital_devices.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/motor_controller_banner.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_controller_banner.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\layout\\orange_warning.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\orange_warning.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/motor_controller_banner.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_controller_banner.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/item_list_parent.xml",

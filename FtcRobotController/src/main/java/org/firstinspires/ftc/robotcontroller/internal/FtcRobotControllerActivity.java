@@ -38,6 +38,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.res.Configuration;
+import android.graphics.SurfaceTexture;
 import android.hardware.Camera;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbManager;
@@ -45,8 +46,10 @@ import android.media.Image;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.IBinder;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -96,10 +99,13 @@ import org.firstinspires.ftc.robotcore.internal.AppUtil;
 import org.firstinspires.inspection.RcInspectionActivity;
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-public class FtcRobotControllerActivity extends Activity {
+public class FtcRobotControllerActivity extends Activity implements SurfaceHolder.Callback {
 
   public static final String TAG = "RCActivity";
 
@@ -138,19 +144,10 @@ public class FtcRobotControllerActivity extends Activity {
   protected FtcEventLoop eventLoop;
   protected Queue<UsbDevice> receivedUsbAttachmentNotifications;
 
-  public Camera cam;
-  public SurfaceView preview;
-  public SurfaceHolder previewHolder;
-
-  public Image picture(Context appContext) {
-    Camera cam = Camera.open();
-    preview=(SurfaceView)findViewById(R.id.sfView);
-    previewHolder=preview.getHolder();
-//    previewHolder.addCallback(surfaceCallback);
-    previewHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
-
-    return null;
-  }
+  SurfaceView mSurfaceView;
+  SurfaceHolder mHolder;
+  public Camera mCamera;
+  public boolean tookPic=false;
 
 
 
@@ -362,6 +359,164 @@ public class FtcRobotControllerActivity extends Activity {
     }
   }
 
+
+
+  Camera.PictureCallback camHolla = new Camera.PictureCallback() {
+    public void onPictureTaken(byte[] data, Camera camera) {
+      Log.e("Started","to log cam");
+      String photoFile = "F_Auton.jpg";
+      File sDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+
+      String filename = sDir + File.separator + photoFile;
+
+      File pictureFile = new File(filename);
+      try {
+        FileOutputStream fos = new FileOutputStream(pictureFile);
+        fos.write(data);
+        fos.close();
+      } catch (Exception error) {
+        Log.e("File",error.getMessage());
+      }
+    }
+  };
+
+  public void setCamera(Camera camera) {
+    if(mCamera == camera) { return; }
+    stopPreviewAndFreeCamera();
+    mCamera = camera;
+
+    if(mCamera!=null) {
+      List<Camera.Size> localSizes = mCamera.getParameters().getSupportedPreviewSizes();
+      try {
+        mCamera.setPreviewDisplay(mHolder);
+      } catch(IOException e) {
+        e.printStackTrace();
+      }
+
+      mCamera.startPreview();
+    }
+  }
+
+  //@Override
+  public void surfaceCreated(SurfaceHolder surfaceHolder) { }
+
+  public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
+
+  }
+
+  public void surfaceDestroyed(SurfaceHolder holder) {
+    if(mCamera!=null) {
+      mCamera.stopPreview();
+      mCamera.release();
+      mCamera = null;
+    }
+  }
+
+  public File getImageFile() {
+    File sDir = (Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES));
+    File sFile = new File(sDir.getPath()+File.separator+"F_Auton.jpg");
+    return sFile;
+  }
+
+  public void takePic() {
+    tookPic = false;
+    FtcRobotControllerActivity.this.runOnUiThread(new Runnable() {
+      public void run() {
+        mSurfaceView = (SurfaceView) findViewById(R.id.cameraPreview);
+        // Install a SurfaceHolder.Callback so we get notified when the
+        // underlying surface is created and destroyed.
+        mHolder = mSurfaceView.getHolder();
+        mHolder.addCallback(FtcRobotControllerActivity.this);
+        mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+        // Search for the front facing camera
+        int numberOfCameras = Camera.getNumberOfCameras();
+        int camId = 0;
+        for (int i = 0; i < numberOfCameras; i++) {
+          Camera.CameraInfo info = new Camera.CameraInfo();
+          Camera.getCameraInfo(i, info);
+          if (info.facing == Camera.CameraInfo.CAMERA_FACING_BACK) {
+            camId = i;
+          }
+        }
+        if (safeCameraOpen(camId)) Log.e("Camera", "All Good");
+        else Log.e("Camera", "Errored");
+        try {
+          SurfaceTexture surfaceTexture = new SurfaceTexture(0);
+          mCamera.setPreviewTexture(surfaceTexture);
+          //    mCamera.startPreview();
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+
+        try {
+          Log.e("Camera", "Trying to take pic");
+          Camera.Parameters parameters = mCamera.getParameters();
+          List<String> focusModes = parameters.getSupportedFocusModes();
+          if (focusModes.contains(Camera.Parameters.FOCUS_MODE_AUTO)) {
+            parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO);
+          }
+          mCamera.setParameters(parameters);
+          mCamera.stopPreview();
+          mCamera.startPreview();
+          mCamera.autoFocus(new Camera.AutoFocusCallback() {
+            @Override
+            public void onAutoFocus(boolean b, Camera camera) {
+              mCamera.takePicture(null, null, null, new Camera.PictureCallback() {
+                public void onPictureTaken(byte[] data, Camera camera) {
+                  Log.e("Camera", "Started to log cam");
+                  String photoFile = "F_Auton.jpg";
+                  File sdDir = Environment
+                          .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+
+                  String filename = sdDir + File.separator + photoFile;
+
+                  File pictureFile = new File(filename);
+                  Log.e("Camera", "Was success much yes yes 100");
+
+                  try {
+                    FileOutputStream fos = new FileOutputStream(pictureFile);
+                    fos.write(data);
+                    fos.close();
+                    Log.e("Image","Saved image.");
+                    tookPic = true;
+                  } catch (Exception error) {
+                    Log.e("File", error.getMessage());
+                  }
+
+                }// end onPictureTaken()
+              });// jpegCallback implementation);
+              Log.e("Camera", "Took pic");
+//          mCamera.stopPreview();
+              //         mCamera.startPreview();
+
+            }
+          });
+        } catch (Exception e) {
+          e.printStackTrace();
+        }
+
+      }
+    });
+  }
+
+
+  /**
+   * When this function returns, mCamera will be null.
+   */
+  private void stopPreviewAndFreeCamera() {
+
+    if (mCamera != null) {
+      // Call stopPreview() to stop updating the preview surface.
+      mCamera.stopPreview();
+
+      // Important: Call release() to release the camera for use by other
+      // applications. Applications should release the camera immediately
+      // during onPause() and re-open() it during onResume()).
+      mCamera.release();
+
+      mCamera = null;
+    }
+  }
   public void writeNetworkTypeFile(String fileName, String fileContents){
     ReadWriteFile.writeFile(AppUtil.FIRST_FOLDER, fileName, fileContents);
   }
@@ -552,4 +707,25 @@ public class FtcRobotControllerActivity extends Activity {
       });
     }
   }
+
+  private boolean safeCameraOpen(int id) {
+    boolean qOpened = false;
+    try {
+      releaseCameraAndPreview();
+      mCamera = Camera.open(id);
+      qOpened = (mCamera != null);
+    } catch (Exception e) {
+      Log.e("Camera", "failed to open Camera");
+      e.printStackTrace();
+    }
+    return qOpened;
+  }
+
+  private void releaseCameraAndPreview() {
+    setCamera(null);
+    if(mCamera!=null) {
+      mCamera.release(); mCamera = null;
+    }
+  }
+
 }

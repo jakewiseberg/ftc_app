@@ -9,7 +9,7 @@ import java.io.*;
  */
 public class ImageUtil {
 
-    public Bitmap bmpFromImage(File image) {
+    public static Bitmap bmpFromImage(File image) {
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inPreferredConfig = Bitmap.Config.ARGB_8888;
         Bitmap bitmap = BitmapFactory.decodeFile(image.getPath(),options);

@@ -21,7 +21,7 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 public class HardwareMecanumWithEncoders extends HardwareMecanum {
 
     float fl_target=0, fr_target=0, bl_target=0, br_target=0;
-    public float COUNTS_PER_INCH = 0;
+    public float COUNTS_PER_INCH = 0.0f;
 
     Telemetry tel;
 
@@ -73,7 +73,6 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean forwardEncoded(float inches, float speed) {
-        setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?1:0,(inches>0)?0:1);
         moveEncoders(inches,-inches,inches,-inches,speed,speed,speed,speed);
         return true;
     }
@@ -87,28 +86,18 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean strafeEncoded(float inches, float speed) {
-        setSides((inches > 0)?0:1,(inches > 0)?0:1, (inches > 0)?1:0, (inches > 0)?1:0);
-        moveEncoders(inches, inches, -inches, -inches, speed, speed, speed, speed);
+       moveEncoders(inches, inches, -inches, -inches, speed, speed, speed, speed);
         return true;
     }
 
     public boolean rotateEncoded(float inches, float speed) {
-        setSides((inches>0)?1:0,(inches>0)?0:1,(inches>0)?0:1,(inches>0)?1:0);
         moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
         return true;
     }
 
-
-    public String logEncoders() {
-        Log.e("Encoders", "Front left: " + fl.getCurrentPosition() + "\nFront right: " + fr.getCurrentPosition()
-                + "\nBack left: " + bl.getCurrentPosition() + "\nBack right: " + br.getCurrentPosition());
-        return "Front left: " + fl.getCurrentPosition() + "\nFront right: " + fr.getCurrentPosition()
-                + "\nBack left: " + bl.getCurrentPosition() + "\nBack right: " + br.getCurrentPosition();
-    }
-
     public boolean moveEncoders(float fl_inches, float fr_inches, float bl_inches, float br_inches,
                                 float fl_speed, float fr_speed, float bl_speed, float br_speed) {
-        resetEncoders(); logEncoders(); setupEncoders();
+        resetEncoders(); setupEncoders();
         fl_target = fl.getCurrentPosition() + (fl_inches * COUNTS_PER_INCH);
         bl_target = bl.getCurrentPosition() + (bl_inches * COUNTS_PER_INCH);
         br_target = br.getCurrentPosition() + (br_inches * COUNTS_PER_INCH);
@@ -118,8 +107,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
         bl.setTargetPosition((int)bl_target);
         br.setTargetPosition((int)br_target);
         runEncoders();
-        //logEncoders();
-        powerAll(Math.abs(fl_speed),Math.abs(fr_speed),Math.abs(bl_speed),Math.abs(br_speed));
+        powerAll(fl_speed, fr_speed, bl_speed, br_speed);
         while(checkEncoders()) { }
         powerAll(0,0,0,0);
         return setupEncoders();

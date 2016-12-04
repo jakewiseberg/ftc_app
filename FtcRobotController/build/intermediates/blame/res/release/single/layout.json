@@ -32,12 +32,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/device_interface_module.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/layout/i2cs.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2cs.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\layout\\pwms.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\pwms.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/layout/i2cs.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2cs.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/layout/red_line.xml",
@@ -60,12 +60,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\legacy.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\layout\\digital_devices.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\digital_devices.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/layout/pwm_device.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwm_device.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\layout\\digital_devices.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\digital_devices.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\layout\\info_button.xml",
