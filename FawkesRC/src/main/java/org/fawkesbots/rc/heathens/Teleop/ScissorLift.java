@@ -8,7 +8,7 @@ import org.fawkesbots.rc.heathens.Hardware.HardwareLift;
 
 @TeleOp (
         name="Lift",
-        group="raise da lift"
+        group="Single"
 )
 public class ScissorLift extends OpMode {
     public HardwareLift Gargoyle;

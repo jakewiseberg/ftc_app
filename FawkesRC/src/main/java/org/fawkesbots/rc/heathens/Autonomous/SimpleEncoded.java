@@ -10,7 +10,7 @@ import org.fawkesbots.rc.heathens.Hardware.HardwareEncoder;
  */
 
 @Autonomous (
-        name="Simple Encoded",group="Tests"
+        name="Simple Encoded",group="Encoded"
 )
 
 public class SimpleEncoded extends LinearOpMode {

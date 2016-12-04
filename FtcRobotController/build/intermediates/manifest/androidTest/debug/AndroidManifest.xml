@@ -13,6 +13,11 @@
         android:label="Tests for com.qualcomm.ftcrobotcontroller.test"
         android:targetPackage="com.qualcomm.ftcrobotcontroller.test" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="true" />
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
     <uses-permission
         android:name="android.permission.ACCESS_WIFI_STATE"
         android:required="true" />
@@ -31,9 +36,6 @@
         android:required="true" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:required="true" />
-    <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:required="true" />
     <uses-permission
@@ -47,7 +49,6 @@
     <uses-permission
         android:name="android.permission.WAKE_LOCK"
         android:required="true" />
-    <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.usb.accessory" />
     <uses-feature android:glEsVersion="0x00020000" />

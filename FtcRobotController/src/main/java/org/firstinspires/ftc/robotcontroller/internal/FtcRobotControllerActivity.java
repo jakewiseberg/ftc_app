@@ -486,6 +486,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
                 }// end onPictureTaken()
               });// jpegCallback implementation);
               Log.e("Camera", "Took pic");
+              mCamera.stopPreview();
+              mCamera.release();
 //          mCamera.stopPreview();
               //         mCamera.startPreview();
 

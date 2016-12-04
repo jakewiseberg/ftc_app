@@ -8,7 +8,7 @@ import org.fawkesbots.rc.vendetta.*;
 
 @TeleOp (
         name="Blank",
-        group="Tests"
+        group="Test"
 )
 public class Blank extends OpMode {
     public HardwareTank Gargoyle;

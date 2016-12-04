@@ -10,7 +10,7 @@ import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
 
 @Autonomous(
         name="CameraTest",
-        group="Test"
+        group="Sensor"
 )
 
 /**

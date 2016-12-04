@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.fawkesbots.rc.heathens.Hardware.HardwareOutreach;
 import org.fawkesbots.rc.vendetta.*;
-@TeleOp(name="Outreach", group="Extra")
+@TeleOp(name="Outreach", group="Finished")
 /**
  * Created by hello_000 on 10/1/2016.
  */

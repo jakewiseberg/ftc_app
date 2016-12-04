@@ -10,7 +10,7 @@ import org.fawkesbots.rc.vendetta.*;
 
 @TeleOp (
         name="Rotor",
-        group="rotate a servo"
+        group="Single"
 )
 public class Rotor extends OpMode {
     public HardwareCollector Gargoyle;
