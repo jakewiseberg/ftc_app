@@ -1,5 +1,6 @@
 package org.fawkesbots.rc.heathens.Teleop;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -8,16 +9,17 @@ import org.fawkesbots.rc.vendetta.*;
 
 @TeleOp (
         name="Blank",
-        group="Tests"
+        group="Test"
 )
+@Disabled
 public class Blank extends OpMode {
-    public HardwareTank Gargoyle;
+    public HardwareTank Drive;
     public void init() {
-        Gargoyle = new HardwareTank(hardwareMap);
-        Gargoyle.hardwareSetup();
-        Gargoyle.reverseSide('l');
+        Drive = new HardwareTank(hardwareMap);
+        Drive.hardwareSetup();
+        Drive.reverseSide('l');
     }
     public void loop() {
-        Gargoyle.tank(gamepad1.left_stick_y,gamepad1.right_stick_y);
+        Drive.tank(gamepad1.left_stick_y,gamepad1.right_stick_y);
     }
 }

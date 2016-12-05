@@ -1,5 +1,6 @@
 package org.fawkesbots.rc.heathens.Teleop;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -12,13 +13,14 @@ import org.fawkesbots.rc.heathens.Hardware.HardwareMecanum;
         name="Mecanum",
         group="Basic Drive"
 )
+@Disabled
 public class Mecanum extends OpMode {
-    public HardwareMecanum Gargoyle;
+    public HardwareMecanum Drive;
     public void init() {
-        Gargoyle = new HardwareMecanum(hardwareMap);
-        Gargoyle.hardwareSetup();
+        Drive = new HardwareMecanum(hardwareMap);
+        Drive.hardwareSetup();
     }
     public void loop() {
-        Gargoyle.mecanum(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
+        Drive.mecanum(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
     }
 }

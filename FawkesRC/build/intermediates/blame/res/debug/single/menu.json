@@ -1,50 +1,26 @@
 [
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\menu\\ftc_robot_controller.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\menu\\ftc_robot_controller.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/menu/menu_server.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FawkesRC\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FawkesRC\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\menu\\main_menu.xml"
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/menu/menu_server.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/menu/ftc_robot_controller.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FawkesRC\\build\\intermediates\\res\\merged\\debug\\menu\\menu_server.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FawkesRC\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\menu\\menu_server.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\menu\\menu_server.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\menu\\menu_server.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FawkesRC\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FawkesRC\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\menu\\main_menu.xml"
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/menu/ftc_robot_controller.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/menu/main_menu.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\menu\\main_menu.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FawkesRC\\build\\intermediates\\res\\merged\\debug\\menu\\ftc_robot_controller.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FawkesRC\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\menu\\ftc_robot_controller.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FawkesRC\\build\\intermediates\\res\\merged\\debug\\menu\\menu_server.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FawkesRC\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\menu\\menu_server.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FawkesRC\\build\\intermediates\\res\\merged\\debug\\menu\\ftc_robot_controller.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FawkesRC\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\menu\\ftc_robot_controller.xml"
     }
 ]

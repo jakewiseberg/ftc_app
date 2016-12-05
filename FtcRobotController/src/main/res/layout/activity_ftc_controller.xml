@@ -144,6 +144,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             android:visibility="invisible"
             android:textColor="#990000"
             android:textStyle="bold"/>
+      <TextView
+          android:id="@+id/loggable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="#000000"/>
 
     </FrameLayout>
 

@@ -144,6 +144,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             android:visibility="invisible"
             android:textColor="#990000"
             android:textStyle="bold"/>
+      <TextView
+          android:id="@+id/loggable"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textColor="#000000"/>
 
     </FrameLayout>
 
@@ -186,5 +191,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
       android:layout_height="1dp"
       android:layout_width="1dp"
       android:id="@+id/sfView"/>
+  <SurfaceView
+      android:layout_width="match_parent"
+      android:layout_height="3dp"
+      android:id="@+id/cameraPreview"
+      android:layout_gravity="center_horizontal"
+      android:layout_alignBaseline="@+id/textRobotStatus"
+      android:layout_alignBottom="@+id/textRobotStatus"
+      android:layout_centerHorizontal="true" />
 
 </LinearLayout>

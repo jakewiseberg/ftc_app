@@ -3,8 +3,10 @@ package org.fawkesbots.rc.heathens.Autonomous;
 import com.qualcomm.hardware.adafruit.BNO055IMU;
 import com.qualcomm.hardware.adafruit.JustLoggingAccelerationIntegrator;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
+import org.fawkesbots.rc.vendetta.Auton;
 import org.firstinspires.ftc.robotcore.external.Func;
 import org.firstinspires.ftc.robotcore.external.navigation.Acceleration;
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
@@ -17,7 +19,8 @@ import org.firstinspires.ftc.robotcore.external.navigation.Velocity;
 import java.util.Locale;
 
 @Autonomous(name = "Adafruit IMU", group = "Sensor")
-public class GyroAuton extends LinearOpMode
+@Disabled
+public class GyroAuton extends Auton
 {
     BNO055IMU imu;
     Orientation angles;

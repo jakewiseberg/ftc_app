@@ -9,25 +9,26 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.fawkesbots.rc.heathens.Hardware.HardwareOutreach;
 import org.fawkesbots.rc.vendetta.*;
-@TeleOp(name="Outreach", group="Extra")
+@TeleOp(name="Outreach", group="Finished")
 /**
  * Created by hello_000 on 10/1/2016.
  */
+@Disabled
 public class Outreach extends OpMode {
-    public HardwareOutreach Gargoyle;
+    public HardwareOutreach Robot;
     public void init() {
-        Gargoyle = new HardwareOutreach(hardwareMap);
+        Robot = new HardwareOutreach(hardwareMap);
         Log.e("fawkes", "made");
-        Gargoyle.hardwareSetup();
+        Robot.hardwareSetup();
         Log.e("fawkes","did");
     }
     public void loop() {
-            Gargoyle.front_left.power(gamepad1.left_stick_y + gamepad1.right_stick_x);
-            Gargoyle.front_right.power(gamepad1.left_stick_y - gamepad1.right_stick_x);
-            Gargoyle.back_left.power(gamepad1.left_stick_y + gamepad1.right_stick_x);
-            Gargoyle.back_right.power(gamepad1.left_stick_y - gamepad1.right_stick_x);
-            Gargoyle.sweep.power(gamepad1.right_trigger);
-            Gargoyle.hook.power(gamepad1.right_stick_y);
-            Gargoyle.jaw.power(-1 * gamepad1.right_stick_y);
+            Robot.front_left.power(gamepad1.left_stick_y + gamepad1.right_stick_x);
+            Robot.front_right.power(gamepad1.left_stick_y - gamepad1.right_stick_x);
+            Robot.back_left.power(gamepad1.left_stick_y + gamepad1.right_stick_x);
+            Robot.back_right.power(gamepad1.left_stick_y - gamepad1.right_stick_x);
+            Robot.sweep.power(gamepad1.right_trigger);
+            Robot.hook.power(gamepad1.right_stick_y);
+            Robot.jaw.power(-1 * gamepad1.right_stick_y);
     }
 }

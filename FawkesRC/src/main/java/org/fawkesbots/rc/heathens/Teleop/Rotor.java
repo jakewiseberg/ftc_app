@@ -1,5 +1,6 @@
 package org.fawkesbots.rc.heathens.Teleop;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
@@ -10,15 +11,16 @@ import org.fawkesbots.rc.vendetta.*;
 
 @TeleOp (
         name="Rotor",
-        group="rotate a servo"
+        group="Single"
 )
+@Disabled
 public class Rotor extends OpMode {
-    public HardwareCollector Gargoyle;
+    public HardwareCollector Sweeper;
     public void init() {
-        Gargoyle = new HardwareCollector(hardwareMap);
-        Gargoyle.hardwareSetup();
+        Sweeper = new HardwareCollector(hardwareMap);
+        Sweeper.hardwareSetup();
     }
     public void loop() {
-        Gargoyle.collect(gamepad1.left_trigger);
+        Sweeper.collect(gamepad1.left_trigger);
     }
 }

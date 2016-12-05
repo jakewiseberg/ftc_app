@@ -1,19 +1,22 @@
 package org.fawkesbots.rc.heathens.Autonomous;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 import org.fawkesbots.rc.heathens.Hardware.HardwareTank;
+import org.fawkesbots.rc.vendetta.Auton;
 
 /**
  * Created by Priansh on 10/29/16.
  */
+@Disabled
 @Autonomous(name="Basic", group="Encoded")
-public class Encoded extends LinearOpMode {
+public class Encoded extends Auton {
 
-    public HardwareTank Gargoyle;
+    public HardwareTank EncodedDrive;
 
     //Encoder Stuff
     private ElapsedTime runtime = new ElapsedTime();
@@ -22,9 +25,9 @@ public class Encoded extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
 
-        Gargoyle = new HardwareTank(hardwareMap);
-        Gargoyle.hardwareSetup();
-        Gargoyle.resetEncoders(); idle(); Gargoyle.setupEncoders();
+        EncodedDrive = new HardwareTank(hardwareMap);
+        EncodedDrive.hardwareSetup();
+        EncodedDrive.resetEncoders(); idle(); EncodedDrive.setupEncoders();
         waitForStart();
 
         encoderDrive(0.7f,12,20);
@@ -34,13 +37,13 @@ public class Encoded extends LinearOpMode {
     //timeout in seconds
     public void encoderDrive(float v, float inches, float timeout) throws InterruptedException {
         if (opModeIsActive()) {
-            Gargoyle.encodePosition(inches * ticks);
-            Gargoyle.prepEncoders();
+            EncodedDrive.encodePosition(inches * ticks);
+            EncodedDrive.prepEncoders();
             runtime.reset();
-            Gargoyle.tank(v,v);
-            while (opModeIsActive() && (runtime.seconds() < timeout) && (Gargoyle.fl.isBusy() && Gargoyle.fr.isBusy())) idle();
-            Gargoyle.tank(0.0f,0.0f);
-            Gargoyle.setupEncoders();
+            EncodedDrive.tank(v,v);
+            while (opModeIsActive() && (runtime.seconds() < timeout) && (EncodedDrive.fl.isBusy() && EncodedDrive.fr.isBusy())) idle();
+            EncodedDrive.tank(0.0f,0.0f);
+            EncodedDrive.setupEncoders();
         }
     }
 

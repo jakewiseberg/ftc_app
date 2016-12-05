@@ -6,7 +6,6 @@ import android.os.Looper;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-import org.fawkesbots.rc.vendetta.Autonomous;
 import org.fawkesbots.rc.vendetta.Gyro;
 
 /**

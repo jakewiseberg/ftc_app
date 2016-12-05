@@ -144,6 +144,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   protected FtcEventLoop eventLoop;
   protected Queue<UsbDevice> receivedUsbAttachmentNotifications;
 
+  public int color_side = 1;
+
   SurfaceView mSurfaceView;
   SurfaceHolder mHolder;
   public Camera mCamera;
@@ -242,6 +244,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       configFile.markClean();
       cfgFileMgr.setActiveConfig(false, configFile);
     }
+
+    color_side = ((configFile.getName()=="Red")?1:-1);
 
     textDeviceName = (TextView) findViewById(R.id.textDeviceName);
     textNetworkConnectionStatus = (TextView) findViewById(R.id.textNetworkConnectionStatus);
@@ -486,6 +490,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
                 }// end onPictureTaken()
               });// jpegCallback implementation);
               Log.e("Camera", "Took pic");
+//              mCamera.stopPreview();
+  //            mCamera.release();
 //          mCamera.stopPreview();
               //         mCamera.startPreview();
 
@@ -519,6 +525,10 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   }
   public void writeNetworkTypeFile(String fileName, String fileContents){
     ReadWriteFile.writeFile(AppUtil.FIRST_FOLDER, fileName, fileContents);
+  }
+
+  public void log(String text) {
+    ((TextView)(findViewById(R.id.loggable))).setText(text);
   }
 
   protected void readNetworkType(String fileName) {
@@ -716,6 +726,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       qOpened = (mCamera != null);
     } catch (Exception e) {
       Log.e("Camera", "failed to open Camera");
+      log("Couldn't open camera");
       e.printStackTrace();
     }
     return qOpened;

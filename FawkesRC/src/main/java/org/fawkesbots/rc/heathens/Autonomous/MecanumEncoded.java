@@ -1,32 +1,34 @@
 package org.fawkesbots.rc.heathens.Autonomous;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import org.fawkesbots.rc.heathens.Hardware.HardwareMecanumWithEncoders;
+import org.fawkesbots.rc.vendetta.Auton;
 
 @Autonomous(
         name="Mecanum Encoded",
         group="Encoded"
 )
-
+@Disabled
 /**
  * Created by Priansh on 11/30/16.
  */
-public class MecanumEncoded extends LinearOpMode {
+public class MecanumEncoded extends Auton {
 
-    public HardwareMecanumWithEncoders Gargoyle;
+    public HardwareMecanumWithEncoders EncodedDrive;
 
     @Override
     public void runOpMode() throws InterruptedException {
-        Gargoyle = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
-        Gargoyle.hardwareSetup(); Gargoyle.setSides(1,1,1,1);
+        EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
+        EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1,1,1,1);
         waitForStart();
 
-        Gargoyle.forwardEncoded(18, 0.78f);
-        Gargoyle.strafeEncoded(18,0.78f);
-        Gargoyle.rotateEncoded(18,0.78f);
+        EncodedDrive.forwardEncoded(18, 0.78f);
+        EncodedDrive.strafeEncoded(18,0.78f);
+        EncodedDrive.rotateEncoded(18,0.78f);
 
     }
 
