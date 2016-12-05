@@ -44,16 +44,16 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/template_info.xml"
     },
     {
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/activity_view_logs.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_view_logs.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/loading_indicator_overlay.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/res/layout/loading_indicator_overlay.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/simple_device.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/simple_device.xml"
-    },
-    {
-        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/activity_view_logs.xml",
-        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_view_logs.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/activity_load.xml",

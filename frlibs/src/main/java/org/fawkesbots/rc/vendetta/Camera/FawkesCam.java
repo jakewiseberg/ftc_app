@@ -34,6 +34,7 @@ public class FawkesCam {
         Log.e("Cam","file image got");
         bmp = ImageUtil.bmpFromImage(image);
         Log.e("Cam","bumpy made");
+
         return BeaconClassifier.processBitmap(bmp);
     }
 

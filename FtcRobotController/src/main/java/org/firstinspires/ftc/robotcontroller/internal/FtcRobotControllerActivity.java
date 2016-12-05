@@ -486,8 +486,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
                 }// end onPictureTaken()
               });// jpegCallback implementation);
               Log.e("Camera", "Took pic");
-              mCamera.stopPreview();
-              mCamera.release();
+//              mCamera.stopPreview();
+  //            mCamera.release();
 //          mCamera.stopPreview();
               //         mCamera.startPreview();
 
@@ -521,6 +521,10 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   }
   public void writeNetworkTypeFile(String fileName, String fileContents){
     ReadWriteFile.writeFile(AppUtil.FIRST_FOLDER, fileName, fileContents);
+  }
+
+  public void log(String text) {
+    ((TextView)(findViewById(R.id.loggable))).setText(text);
   }
 
   protected void readNetworkType(String fileName) {
@@ -718,6 +722,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       qOpened = (mCamera != null);
     } catch (Exception e) {
       Log.e("Camera", "failed to open Camera");
+      log("Couldn't open camera");
       e.printStackTrace();
     }
     return qOpened;

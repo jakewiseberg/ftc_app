@@ -1,6 +1,2 @@
-CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$5$override.class
-CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$override.class
-CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$5$1$override.class
-CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/fawkesbots/rc/heathens/Teleop/RoboCat_Tele$override.class
+CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/fawkesbots/rc/heathens/Autonomous/RoboCat_blue$override.class
 CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$6$override.class

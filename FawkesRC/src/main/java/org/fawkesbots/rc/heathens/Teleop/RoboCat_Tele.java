@@ -41,8 +41,8 @@ public class RoboCat_Tele extends OpMode {
         ItsJustAClock.hardwareSetup();
     }
     public void loop() {
-        Gargoyle.mecanum(gamepad1.left_stick_x,gamepad1.left_stick_y,gamepad1.right_stick_x);
+        Gargoyle.mecanum(-1*gamepad1.left_stick_x,-1*gamepad1.left_stick_y,gamepad1.right_stick_x);
         Marilyn.collect(gamepad2.left_stick_y);
-        ItsJustAClock.fire((gamepad2.right_trigger>0.3)?-0.67f:0);
+        ItsJustAClock.fire((gamepad2.right_trigger>0.3)?-0.78f:(gamepad2.left_trigger>0.3)?0.78f:0);
     }
 }
