@@ -28,13 +28,13 @@ public class FawkesCam {
 
     public int[] getBeaconColors() {
         main.takePic();
-        Log.e("Cam", "Making progress");
+        Log.e("Camera", "Shutter activated");
         while(!main.tookPic){ }
+        Log.e("Camera","Took picture");
         image = main.getImageFile();
-        Log.e("Cam","file image got");
+        Log.e("Camera","Got the image file");
         bmp = ImageUtil.bmpFromImage(image);
-        Log.e("Cam","bumpy made");
-
+        Log.e("Camera","Made bitmap");
         return BeaconClassifier.processBitmap(bmp);
     }
 

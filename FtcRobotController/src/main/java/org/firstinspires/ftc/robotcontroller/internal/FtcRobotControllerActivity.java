@@ -367,7 +367,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
 
   Camera.PictureCallback camHolla = new Camera.PictureCallback() {
     public void onPictureTaken(byte[] data, Camera camera) {
-      Log.e("Started","to log cam");
+      Log.e("Camera","Begin writing picture to file");
       String photoFile = "F_Auton.jpg";
       File sDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
 
@@ -379,13 +379,15 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
         fos.write(data);
         fos.close();
       } catch (Exception error) {
-        Log.e("File",error.getMessage());
+        Log.e("Camera","File error: "+error.getMessage());
       }
     }
   };
 
   public void setCamera(Camera camera) {
+    Log.e("Camera","Setting up camera");
     if(mCamera == camera) { return; }
+    Log.e("Camera","Releasing camera");
     stopPreviewAndFreeCamera();
     mCamera = camera;
 
@@ -396,8 +398,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       } catch(IOException e) {
         e.printStackTrace();
       }
-
       mCamera.startPreview();
+      Log.e("Camera","Now using the camera");
     }
   }
 
@@ -412,17 +414,21 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
     if(mCamera!=null) {
       mCamera.stopPreview();
       mCamera.release();
+      Log.e("Camera","Releasing camera");
       mCamera = null;
     }
   }
 
   public File getImageFile() {
+    Log.e("Camera","Withdrawing image");
     File sDir = (Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES));
     File sFile = new File(sDir.getPath()+File.separator+"F_Auton.jpg");
+    Log.e("Camera","Returning image file");
     return sFile;
   }
 
   public void takePic() {
+    Log.e("Camera","Began to take picture");
     tookPic = false;
     FtcRobotControllerActivity.this.runOnUiThread(new Runnable() {
       public void run() {
@@ -442,8 +448,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
             camId = i;
           }
         }
-        if (safeCameraOpen(camId)) Log.e("Camera", "All Good");
-        else Log.e("Camera", "Errored");
+        if (safeCameraOpen(camId)) Log.e("Camera", "Opened camera");
+        else Log.e("Camera", "Error opening camera");
         try {
           SurfaceTexture surfaceTexture = new SurfaceTexture(0);
           mCamera.setPreviewTexture(surfaceTexture);
@@ -453,7 +459,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
         }
 
         try {
-          Log.e("Camera", "Trying to take pic");
+          Log.e("Camera", "Trying to take picture");
           Camera.Parameters parameters = mCamera.getParameters();
           List<String> focusModes = parameters.getSupportedFocusModes();
           if (focusModes.contains(Camera.Parameters.FOCUS_MODE_AUTO)) {
@@ -465,9 +471,10 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
           mCamera.autoFocus(new Camera.AutoFocusCallback() {
             @Override
             public void onAutoFocus(boolean b, Camera camera) {
+              Log.e("Camera","Focused lens");
               mCamera.takePicture(null, null, null, new Camera.PictureCallback() {
                 public void onPictureTaken(byte[] data, Camera camera) {
-                  Log.e("Camera", "Started to log cam");
+                  Log.e("Camera", "Took picture");
                   String photoFile = "F_Auton.jpg";
                   File sdDir = Environment
                           .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
@@ -475,26 +482,21 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
                   String filename = sdDir + File.separator + photoFile;
 
                   File pictureFile = new File(filename);
-                  Log.e("Camera", "Was success much yes yes 100");
+                  Log.e("Camera", "Attempting to store image file");
 
                   try {
                     FileOutputStream fos = new FileOutputStream(pictureFile);
                     fos.write(data);
                     fos.close();
-                    Log.e("Image","Saved image.");
+                    Log.e("Camera","Saved image file");
                     tookPic = true;
                   } catch (Exception error) {
-                    Log.e("File", error.getMessage());
+                    Log.e("Camera", "File save error: "+error.getMessage());
                   }
 
                 }// end onPictureTaken()
-              });// jpegCallback implementation);
-              Log.e("Camera", "Took pic");
-//              mCamera.stopPreview();
-  //            mCamera.release();
-//          mCamera.stopPreview();
-              //         mCamera.startPreview();
-
+              });
+              Log.e("Camera", "Done using camera");
             }
           });
         } catch (Exception e) {
@@ -519,7 +521,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       // applications. Applications should release the camera immediately
       // during onPause() and re-open() it during onResume()).
       mCamera.release();
-
+      Log.e("Camera","Releasing camera");
       mCamera = null;
     }
   }
@@ -720,13 +722,13 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
 
   private boolean safeCameraOpen(int id) {
     boolean qOpened = false;
+    Log.e("Camera","Attempting to open the camera");
     try {
       releaseCameraAndPreview();
       mCamera = Camera.open(id);
       qOpened = (mCamera != null);
     } catch (Exception e) {
-      Log.e("Camera", "failed to open Camera");
-      log("Couldn't open camera");
+      Log.e("Camera", "Failed to open camera");
       e.printStackTrace();
     }
     return qOpened;
@@ -736,6 +738,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
     setCamera(null);
     if(mCamera!=null) {
       mCamera.release(); mCamera = null;
+      Log.e("Camera","Releasing camera");
     }
   }
 

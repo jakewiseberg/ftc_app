@@ -43,26 +43,19 @@ public class BeaconClassifier {
 
     //BLUE IS NEGATIVE
     public static int[] processBitmap(Bitmap bmp){
+        Log.e("Camera","Bitmap processing started");
         int[] colors = {0,0};
         int guess = 0;
         int pix;
         int[] dimensions = {bmp.getHeight(),bmp.getWidth()};
         ARGB pixel = new ARGB(0);
-
-        Log.e("Camera","NIQ");
-
         //we now traverse the left and right sides of the image independently
-        for(int y = 0; (y<(dimensions[HEIGHT])-10)&&(y<bmp.getHeight()); y=y+3) {
-            Log.e("Cam","EBONY");
-            for (int x = 0; x < (dimensions[WIDTH]/2); x=x+3)
+        for(int y = 0; (y<(dimensions[HEIGHT])-10)&&(y<bmp.getHeight()); y=y+5) {
+            for (int x = 0; x < (dimensions[WIDTH]/2); x=x+5)
                 colors[0] = colors[0] + ARGB.classify(pixel.set(bmp.getPixel(x, y)).getColor());
-            Log.e("Cam","finished height");
-            for (int x = (dimensions[WIDTH] / 2); x < dimensions[WIDTH]; x=x+3)
+            for (int x = (dimensions[WIDTH] / 2); x < dimensions[WIDTH]; x=x+5)
                 colors[1] = colors[1] + ARGB.classify(pixel.set(bmp.getPixel(x, y)).getColor());
         }
-        Log.e("Cam","finished processing");
-        //debugImage(bmp,dimensions,pixel);
-
         return colors;
     }
 
