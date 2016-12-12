@@ -9,7 +9,7 @@ import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
 import org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity;
 
 @Autonomous(
-        name="R_C",
+        name="R_C_SAFE",
         group="Finished"
 )
 
@@ -34,7 +34,7 @@ public class RoboCatSAFE extends LinearOpMode {
         EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
         EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1, 1, 1, 1);
         AutonCam = new FawkesCam(hardwareMap);
-        BeaconFinder = new BeaconUtil(telemetry);
+        BeaconFinder = new BeaconUtil(telemetry,EncodedDrive);
         log("initialized");
         waitForStart();
         BeaconFinder.moveToBeacon(side);

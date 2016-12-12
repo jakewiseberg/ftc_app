@@ -21,7 +21,7 @@ public class RoboCat extends Auton {
 
     public float TILE=24; //length of a tile
 
-    public int side = 1;
+    public int side = -1;
 
     @Override
     public void runOpMode() throws InterruptedException {
@@ -29,7 +29,7 @@ public class RoboCat extends Auton {
         EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
         EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1, 1, 1, 1);
         AutonCam = new FawkesCam(hardwareMap);
-        BeaconFinder = new BeaconUtil(telemetry);
+        BeaconFinder = new BeaconUtil(telemetry,EncodedDrive);
         log("initialized");
         waitForStart();
         BeaconFinder.moveToBeacon(side);

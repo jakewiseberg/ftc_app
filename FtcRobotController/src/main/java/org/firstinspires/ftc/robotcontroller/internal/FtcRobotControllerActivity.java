@@ -144,7 +144,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   protected FtcEventLoop eventLoop;
   protected Queue<UsbDevice> receivedUsbAttachmentNotifications;
 
-  public int color_side = 1;
+  public int color_side = -1;
 
   SurfaceView mSurfaceView;
   SurfaceHolder mHolder;
@@ -244,8 +244,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       configFile.markClean();
       cfgFileMgr.setActiveConfig(false, configFile);
     }
-
-    color_side = ((configFile.getName()=="Red")?1:-1);
+    color_side = ((configFile.getName().contains("ed"))?-1:1);
+    Log.e("CONFIGFILE",configFile.getName()+color_side);
 
     textDeviceName = (TextView) findViewById(R.id.textDeviceName);
     textNetworkConnectionStatus = (TextView) findViewById(R.id.textNetworkConnectionStatus);

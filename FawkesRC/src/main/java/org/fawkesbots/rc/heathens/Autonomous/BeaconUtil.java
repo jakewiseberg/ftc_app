@@ -1,8 +1,11 @@
 package org.fawkesbots.rc.heathens.Autonomous;
 
+import android.util.Log;
+
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 
+import org.fawkesbots.rc.heathens.Hardware.HardwareMecanum;
 import org.fawkesbots.rc.heathens.Hardware.HardwareMecanumWithEncoders;
 import org.fawkesbots.rc.vendetta.Auton;
 import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
@@ -22,13 +25,14 @@ public class BeaconUtil {
     public String tag = "Beacon";
     public Telemetry telemetry;
 
-    public BeaconUtil(Telemetry tele) {
-        telemetry = tele;
+    public BeaconUtil(Telemetry tele, HardwareMecanumWithEncoders enc) {
+        telemetry = tele;EncodedDrive = enc;
     }
 
 
     public boolean log(String loggable) {
-        telemetry.addData(tag,loggable);
+        telemetry.addData(tag, loggable);
+        Log.e(tag,loggable);
         telemetry.update();
         return true;
     }
@@ -36,6 +40,7 @@ public class BeaconUtil {
     public boolean log(String taggable, String loggable) {
         telemetry.addData(taggable,loggable);
         telemetry.update();
+        Log.e(taggable,loggable);
         return true;
     }
 
@@ -44,11 +49,11 @@ public class BeaconUtil {
         log("started motion");
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved forward");
-        EncodedDrive.strafeEncoded(side*-(TILE + 3), 0.78f);
+        EncodedDrive.strafeEncoded(side*((TILE + 3)), 0.78f);
         log("strafed to next to mountain");
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved another tile up");
-        EncodedDrive.rotateEncoded(side * -19, 0.78f);
+        EncodedDrive.rotateEncoded(side * 16.7f, 0.78f);
         log("turn to face beacon");
     }
 
