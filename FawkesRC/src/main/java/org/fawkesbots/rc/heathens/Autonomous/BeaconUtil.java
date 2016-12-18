@@ -49,9 +49,7 @@ public class BeaconUtil {
         log("started motion");
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved forward");
-        EncodedDrive.rotateEncoded(side * 16.7f, 0.78f);
-        EncodedDrive.forwardEncoded(TILE, .78f);
-        EncodedDrive.rotateEncoded(side *3* 16.7f, 0.78f);
+        EncodedDrive.strafeEncoded(-1*TILE,0.78f);
         log("strafed to next to mountain");
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved another tile up");

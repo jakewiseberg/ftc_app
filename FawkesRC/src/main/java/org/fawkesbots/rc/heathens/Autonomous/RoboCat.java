@@ -44,20 +44,16 @@ public class RoboCat extends Auton {
         int[] colors = AutonCam.getBeaconColors();
         log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
         BeaconFinder.hitBeacon(side, colors);
-        EncodedDrive.forwardEncoded(-7f,.78f);
-        EncodedDrive.rotateEncoded(-side*16.7f,.78f);
-        EncodedDrive.forwardEncoded(2*TILE,.78f);
-        EncodedDrive.rotateEncoded(side*16.7f,.78f);
-        EncodedDrive.forwardEncoded(-7f,.78f);
+        EncodedDrive.strafeEncoded(2*TILE,0.78f);
         colors = AutonCam.getBeaconColors();
         BeaconFinder.hitBeacon(side, colors);
-        EncodedDrive.strafeEncoded(2 * TILE, .78f);
-        EncodedDrive.forwardEncoded(-2.5f * TILE, .78f);
+        EncodedDrive.strafeEncoded(-2 * TILE, .78f);
+        EncodedDrive.forwardEncoded(-1 * TILE, .78f);
         Launcher.fire(.78f); sleep(1400); Launcher.fire(0.0f);
         Collector.collect(-.78f); sleep(1000); Flicker.flick(true); sleep(400);
         Collector.collect(0.0f); Flicker.flick(false);
         Launcher.fire(.78f); sleep(1400); Launcher.fire(0.0f);
-        EncodedDrive.forwardEncoded(-4*TILE,.78f);
+        EncodedDrive.forwardEncoded(-1.2f*TILE,.78f);
         log("finished");
     }
 }
