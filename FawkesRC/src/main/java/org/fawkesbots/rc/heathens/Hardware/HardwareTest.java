@@ -13,7 +13,7 @@ import org.fawkesbots.rc.vendetta.Sentinel;
 
 public class HardwareTest extends Sentinel {
 
-    public FawkesServo a;
+    public FawkesServo a; public double pos;
 
     public HardwareTest(HardwareMap a) {
         super(a);
@@ -21,6 +21,7 @@ public class HardwareTest extends Sentinel {
 
     public boolean hardwareSetup() {
         a=retrieveServo("a");
+        pos = a.getPosition();
         return true;
     }
 

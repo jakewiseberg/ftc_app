@@ -108,7 +108,9 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
         br.setTargetPosition((int)br_target);
         runEncoders();
         powerAll(fl_speed, fr_speed, bl_speed, br_speed);
-        while(checkEncoders()) { }
+        while(checkEncoders()) {
+            tel.addData("Encoders",fr.getCurrentPosition()+", "+bl.getCurrentPosition()+", "+br.getCurrentPosition()); tel.update();
+        }
         powerAll(0,0,0,0);
         return setupEncoders();
     }

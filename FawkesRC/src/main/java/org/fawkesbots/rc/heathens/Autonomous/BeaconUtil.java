@@ -49,7 +49,9 @@ public class BeaconUtil {
         log("started motion");
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved forward");
-        EncodedDrive.strafeEncoded(side*((TILE + 3)), 0.78f);
+        EncodedDrive.rotateEncoded(side * 16.7f, 0.78f);
+        EncodedDrive.forwardEncoded(TILE, .78f);
+        EncodedDrive.rotateEncoded(side *3* 16.7f, 0.78f);
         log("strafed to next to mountain");
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved another tile up");
@@ -61,8 +63,9 @@ public class BeaconUtil {
     public void hitBeacon(int side, int[] colors) {
         EncodedDrive.forwardEncoded(20, 0.78f);
         log("pressing beacon");
-        if(colors[0]>colors[1]) { EncodedDrive.rotateEncoded(side*18,0.78f); EncodedDrive.rotateEncoded(side*-18,0.78f); }
-        else if(colors[1]>colors[0]) { EncodedDrive.rotateEncoded(side*-18,.78f); EncodedDrive.rotateEncoded(side*18,0.78f); }
+        if(colors[0]>colors[1]) { EncodedDrive.strafeEncoded(side*3,0.78f); EncodedDrive.forwardEncoded(4, .78f); EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side * -3, 0.78f); }
+        else if(colors[1]>colors[0]) { EncodedDrive.strafeEncoded(side * -3, .78f);  EncodedDrive.forwardEncoded(4, .78f);
+            EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side*3,0.78f); }
     }
 
 }
