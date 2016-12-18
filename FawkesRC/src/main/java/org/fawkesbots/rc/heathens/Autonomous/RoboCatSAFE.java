@@ -30,7 +30,7 @@ public class RoboCatSAFE extends Auton {
 
         EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
         EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1, 1, 1, 1);
-        Flicker = new HardwareFlicker(hardwareMap); Launcher = new HardwareLauncher(hardwareMap);
+        Flicker = new HardwareFlickr(hardwareMap); Launcher = new HardwareLauncher(hardwareMap);
         Flicker.hardwareSetup(); Launcher.hardwareSetup();
         Collector = new HardwareCollector(hardwareMap); Collector.hardwareSetup();
         log("initialized");
@@ -39,10 +39,12 @@ public class RoboCatSAFE extends Auton {
 
         EncodedDrive.forwardEncoded(TILE*1.7f, .78f); //move up one tile to launch
 
+        Collector.collect(-.78f); sleep(1400);
         Launcher.fire(.78f); sleep(1400); Launcher.fire(0.0f); //shoots ball
 
-        Collector.collect(-.78f); sleep(1000); Flicker.flick(true); sleep(400);
-        Collector.collect(0.0f); Flicker.flick(false); //collects
+        Collector.collect(-.78f); sleep(1000);
+        Flicker.flickUp(); sleep(1000); Flicker.flickDown();
+        Collector.collect(0.0f);
 
         Launcher.fire(.78f); sleep(1400); Launcher.fire(0.0f); //shoots again
 
