@@ -30,7 +30,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     float WHEEL_DIAMETER = 6.0f;
 /*  GET THIS MEASUREMENT */
 
-    public float ticks = 1440.0f;
+    public float ticks = 1120.0f;
 /* NORMAL = 1120, NEVEREST40 = 1440, ETC */
 
     public HardwareMecanumWithEncoders(HardwareMap hwMap, Telemetry tele) {

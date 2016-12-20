@@ -1,2 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2328a589c58a9624cf2d71148b8898c0570814ed">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/ftc_app-FtcRobotController-unspecified_db2f9c4fdd5143de43962a1ee8f6f08dc773bb3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4d964a43f48520428edfadad534fa0a3279deb84">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_3493aeaee82a19edf04c4c172e761112325be818.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_3ae272abba401be735baabd240aa5025a038d0c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec068454985de756c760317d9c63c23b3ce2055c">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_e3802e1f60f14e6130d96c9c1d01f6434460663a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="15632afee8c14c7c0ba7168d25710c38badee7c8">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_f41b988d38e0e496282cf7847b8f7c4d0755a7cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ca5be875a082e7b5f0277a0e85564617b181ae76">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/Vuforia_8081f993d9ef53e458e733cd6a4c3d50f540f34f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_c5e00e98c1aa5009edae4cde232af3fc562c4fef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f8bcd8ef93636064d155d8e8ea6541ea7e4280d0">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/gson-2.7_3fa384de4e759fc14bf86adf4bfa51ea714975e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/frlibs/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="48477ad76340b0973f26691b7d5ded73a8bb2e14">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/ftc_app-frlibs-unspecified_264e4af885cae82c3d9d058a6896cb01adca0988.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_bdba02daa5cc48d2963ffed91e30c689ef1cd6de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a6cc281519866bbb2d0ac480409212d8d9816d18">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/d2xx_e47d766960d0f6e407e087e1c2e40ab8f47f4ed0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5216545889f13d4560613d35d498b2ca2db1d1f">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_dab02c8f7bf8881a6c85988bfea11a2523eda1c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2a24cdb4bd53ff8f890698775608b84ab6703fe2">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_3ab24b69512358bcae982d76bb86a69a2506562f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b1a3a00c0ec6312741914629ed283101a3301293">
+        <dex dex="/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_6a30ad07474dff8b5b3540ef6075b6224f0c5d40.jar" />
+    </item>
+
+</items>

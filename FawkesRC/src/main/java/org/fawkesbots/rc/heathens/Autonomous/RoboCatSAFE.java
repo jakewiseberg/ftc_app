@@ -1,47 +1,56 @@
-package org.fawkesbots.rc.heathens.Autonomous;
 
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+        package org.fawkesbots.rc.heathens.Autonomous;
 
-import org.fawkesbots.rc.heathens.Hardware.HardwareMecanumWithEncoders;
-import org.fawkesbots.rc.vendetta.Auton;
-import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
-import org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity;
+        import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+
+        import org.fawkesbots.rc.heathens.Hardware.HardwareCollector;
+        import org.fawkesbots.rc.heathens.Hardware.HardwareFlickr;
+        import org.fawkesbots.rc.heathens.Hardware.HardwareLauncher;
+        import org.fawkesbots.rc.heathens.Hardware.HardwareMecanumWithEncoders;
+        import org.fawkesbots.rc.vendetta.Auton;
+        import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
+        import org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity;
 
 @Autonomous(
-        name="R_C_SAFE",
+        name="R_C Safe",
         group="Finished"
 )
 
 /**
  * Created by Priansh on 11/30/16.
  */
-public class RoboCatSAFE extends LinearOpMode {
+public class RoboCatSAFE extends Auton {
     public HardwareMecanumWithEncoders EncodedDrive;
-    public FawkesCam AutonCam; public BeaconUtil BeaconFinder;
+    public HardwareLauncher Launcher; public HardwareFlickr Flicker;
+    public HardwareCollector Collector;
 
     public float TILE=24; //length of a tile
 
-    public int side = 1;
-
-    public void log(String s) {
-        telemetry.addData("Autonomous",s);
-    }
-
     @Override
     public void runOpMode() throws InterruptedException {
-        side = ((FtcRobotControllerActivity)hardwareMap.appContext).color_side;
+
         EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
         EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1, 1, 1, 1);
-        AutonCam = new FawkesCam(hardwareMap);
-        BeaconFinder = new BeaconUtil(telemetry,EncodedDrive);
+        Flicker = new HardwareFlickr(hardwareMap); Launcher = new HardwareLauncher(hardwareMap);
+        Flicker.hardwareSetup(); Launcher.hardwareSetup();
+        Collector = new HardwareCollector(hardwareMap); Collector.hardwareSetup();
         log("initialized");
+
         waitForStart();
-        BeaconFinder.moveToBeacon(side);
-        int[] colors = AutonCam.getBeaconColors();
-        log("red on "+((colors[0]>colors[1])?"Left":"Right"));
-        BeaconFinder.hitBeacon(side,colors);
-        EncodedDrive.forwardEncoded(-TILE,0.78f);
+
+        EncodedDrive.forwardEncoded(TILE*1.7f, .78f); //move up one tile to launch
+
+        Collector.collect(+.78f); sleep(1400);
+        Launcher.fire(-.78f); sleep(1400); Launcher.fire(0.0f); //shoots ball
+
+        Collector.collect(+.78f); sleep(1000);
+        Flicker.flickUp(); sleep(1000); Flicker.flickDown();
+        Collector.collect(0.0f);
+
+        Launcher.fire(-.78f); sleep(1400); Launcher.fire(0.0f); //shoots again
+
+        EncodedDrive.forwardEncoded(TILE*2,.78f); //move to center piece
+
         log("finished");
     }
 }

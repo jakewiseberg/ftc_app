@@ -38,18 +38,18 @@ public class RoboCat_Tele extends OpMode {
     public HardwareCollector Sweeper;
     public HardwareLauncher Launcher;
     public HardwareFlickr Flickr;
-    BNO055IMU imu;
+    //BNO055IMU imu;
     public void init() {
 
-        BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
+      /*  BNO055IMU.Parameters parameters = new BNO055IMU.Parameters();
         parameters.angleUnit           = BNO055IMU.AngleUnit.DEGREES;
-        parameters.accelUnit           = BNO055IMU.AccelUnit.METERS_PERSEC_PERSEC;
+        parameters.accelUnit           = BNO055IMU.AccelUnit.METERS_PERSgit pEC_PERSEC;
         parameters.calibrationDataFile = "AdafruitIMUCalibration.json"; // see the calibration sample opmode
         parameters.loggingEnabled      = true;
         parameters.loggingTag          = "IMU";
-        parameters.accelerationIntegrationAlgorithm = new JustLoggingAccelerationIntegrator();
+        parameters.accelerationIntegrationAlgorithm = new JustLoggingAccelerationIntegrator();*/
 
-        imu = hardwareMap.get(BNO055IMU.class, "imu");
+        //imu = hardwareMap.get(BNO055IMU.class, "imu");
 
         Drive = new HardwareMecanum(hardwareMap);
         Sweeper = new HardwareCollector(hardwareMap);
@@ -59,22 +59,27 @@ public class RoboCat_Tele extends OpMode {
         Sweeper.hardwareSetup();
         Launcher.hardwareSetup();
         Flickr.hardwareSetup();
+        Flickr.flickDown();
 
-        imu.initialize(parameters);
-        imu.startAccelerationIntegration(new Position(), new Velocity(), 1000);
+        //imu.initialize(parameters);
+        //imu.startAccelerationIntegration(new Posi tion(), new Velocity(), 1000);*/
     }
     public void loop() {
         Drive.mecanum(-1*gamepad1.left_stick_x,-1*gamepad1.left_stick_y,gamepad1.right_stick_x);
         Sweeper.collect(gamepad2.left_stick_y);
         Launcher.fire((gamepad2.right_trigger>0.3)?-0.78f:(gamepad2.left_trigger>0.3)?0.78f:0);
-        try {
-            Flickr.flick(gamepad2.a);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        if (gamepad2.a) {
+            Flickr.flickUp();
         }
-        telemetry.addData("Gyro X:", imu.getPosition().x);
-        telemetry.addData("Gyro Y:", imu.getPosition().y);
-        telemetry.addData("Gyro Z:", imu.getPosition().z);
+        if (gamepad2.b) {
+            Flickr.flickDown();
+        }
+
+        telemetry.addData("Flickr position: ", Flickr.getPos());
+        telemetry.addData("A: ", gamepad2.a);
+        //telemetry.addData("Gyro X:", imu.getPosition().x);
+        //telemetry.addData("Gyro Y:", imu.getPosition().y);
+       // telemetry.addData("Gyro Z:", imu.getPosition().z);
 
     }
 }

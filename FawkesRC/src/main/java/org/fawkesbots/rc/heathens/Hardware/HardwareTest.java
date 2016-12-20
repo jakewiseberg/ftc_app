@@ -13,19 +13,19 @@ import org.fawkesbots.rc.vendetta.Sentinel;
 
 public class HardwareTest extends Sentinel {
 
-    public FawkesServo a;
+    public FawkesServo flicker;
 
-    public HardwareTest(HardwareMap a) {
-        super(a);
+    public HardwareTest(HardwareMap hw) {
+        super(hw);
     }
 
     public boolean hardwareSetup() {
-        a=retrieveServo("a");
+        flicker=retrieveServo("flicker");
         return true;
     }
 
     public boolean position(float q) {
-        a.setPosition(q); return true;
+        flicker.setPosition(q); return true;
     }
 
 

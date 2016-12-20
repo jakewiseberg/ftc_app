@@ -22,14 +22,19 @@ public class HardwareFlickr extends Sentinel {
         super(a);
     }
 
-    public boolean flick(boolean a) throws InterruptedException {
+    public boolean flickUp() {
         pos = flickr.getPosition();
-        if (a) {
-            flickr.setPosition(pos+.3);
-            Thread.sleep(2000);
-            flickr.setPosition(pos-.3);
-        }
+        flickr.setPosition(.820);
         return true;
+    }
+    public boolean flickDown() {
+        pos = flickr.getPosition();
+        flickr.setPosition(.200);
+        return true;
+    }
+
+    public double getPos() {
+        return flickr.getPosition();
     }
 
     public boolean hardwareSetup() {
