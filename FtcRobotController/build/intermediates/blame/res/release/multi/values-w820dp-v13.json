@@ -1,0 +1,122 @@
+[
+    {
+        "outputFile": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/release/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1940,
+                        "endColumn": 57,
+                        "endOffset": 1993
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1977,
+                        "endColumn": 57,
+                        "endOffset": 2030
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1940,
+                        "endColumn": 57,
+                        "endOffset": 1993
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/release/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1940,
+                        "endColumn": 57,
+                        "endOffset": 1993
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1977,
+                        "endColumn": 57,
+                        "endOffset": 2030
+                    }
+                }
+            }
+        ]
+    }
+]

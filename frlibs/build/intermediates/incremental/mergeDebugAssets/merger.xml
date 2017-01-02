@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/krishenseth/Desktop/ftc_app-canary/frlibs/src/main/assets"/><source path="/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/krishenseth/Desktop/ftc_app-canary/frlibs/src/debug/assets"/></dataSet></merger>
