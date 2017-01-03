@@ -53,20 +53,29 @@ public class VV_Auton extends Auton {
 
         BeaconFinder.moveToBeacon(side);
 
-        int[] colors = AutonCam.getBeaconColors();
-        log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
-        BeaconFinder.hitBeacon(side, colors);
+        int[] colors;
+        try {
+            colors = AutonCam.getBeaconColors();
+            log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
+            BeaconFinder.hitBeacon(side, colors);
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
 
-        EncodedDrive.strafeEncoded(2*TILE,0.78f);
+        EncodedDrive.strafeEncoded(2*TILE,0.6f);
 
-        colors = AutonCam.getBeaconColors();
-        log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
-        BeaconFinder.hitBeacon(side, colors);
+        try {
+            colors = AutonCam.getBeaconColors();
+            log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
+            BeaconFinder.hitBeacon(side, colors);
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
 
-        EncodedDrive.strafeEncoded(-2 * TILE, .78f);
-        EncodedDrive.forwardEncoded(-1 * TILE, .78f);
-
-        EncodedDrive.forwardEncoded(-1.2f*TILE,.78f); //hit that ball
+        EncodedDrive.strafeEncoded(-2 * TILE, .6f);
+        EncodedDrive.forwardEncoded(-2.2f*TILE,.78f);
         log("finished");
     }
 }
