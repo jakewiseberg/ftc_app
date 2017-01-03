@@ -13,7 +13,6 @@ import org.fawkesbots.rc.heathens.Hardware.HardwareMecanum;
         name="Mecanum",
         group="Basic Drive"
 )
-@Disabled
 public class Mecanum extends OpMode {
     public HardwareMecanum Drive;
     public void init() {

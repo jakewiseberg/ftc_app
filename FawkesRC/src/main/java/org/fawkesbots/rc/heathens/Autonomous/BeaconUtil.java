@@ -47,8 +47,6 @@ public class BeaconUtil {
     //Red is 1, Blue is -1
     public void moveToBeacon(int side) {
         log("started motion");
-        EncodedDrive.forwardEncoded(TILE, 0.78f);
-        log("moved forward");
         EncodedDrive.strafeEncoded(-1*TILE,0.78f);
         log("strafed to next to mountain");
         EncodedDrive.forwardEncoded(TILE, 0.78f);

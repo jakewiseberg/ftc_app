@@ -11,7 +11,6 @@ import org.fawkesbots.rc.vendetta.*;
         name="Tank",
         group="Basic Drive"
 )
-@Disabled
 public class Tank extends OpMode {
     public HardwareTank Drive;
     public void init() {

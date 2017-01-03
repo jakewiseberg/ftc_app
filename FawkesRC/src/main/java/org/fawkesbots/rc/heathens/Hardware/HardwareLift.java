@@ -10,22 +10,22 @@ import org.fawkesbots.rc.vendetta.Sentinel;
 
 public class HardwareLift extends Sentinel {
 
-    public FawkesMotor lift;
-
+    public FawkesMotor lift_uno;
+    public FawkesMotor lift_dos;
 
     public HardwareLift(HardwareMap a) {
         super(a);
     }
 
     public boolean hardwareSetup() {
-        lift=retrieveMotor("lift");
-
+        lift_uno=retrieveMotor("lift");
+        lift_dos=retrieveMotor("lifter");
         return true;
     }
 
     public boolean rise(float speed) {
-        lift.power(speed);
-
+        lift_uno.power(speed);
+        lift_dos.power(speed);
         return true;
     }
 

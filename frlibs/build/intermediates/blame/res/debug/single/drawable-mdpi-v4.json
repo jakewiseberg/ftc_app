@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\TeamCode\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\drawable-mdpi-v4\\ic_launcher.png"
     },

@@ -1,2 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="efa61a79c189f544f5906af1fe5341fbb68b6c03">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/ftc_app-FtcRobotController-unspecified_1b4ca2ad6040f38ecce19606a37edfd4104dfa2a.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c5216545889f13d4560613d35d498b2ca2db1d1f">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_682fce9b31b7c121a118dadc8b6c5f0303f598b6.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b1a3a00c0ec6312741914629ed283101a3301293">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_3c95bfa5c3a2b635a3e7141107c756010f7870fe.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_7cba6f06ead7aa153f75a0263efff5a9b1c597d8.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_612cde39df746f6a6e98a89399189e7e4669a8fe.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a6cc281519866bbb2d0ac480409212d8d9816d18">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/d2xx_e06ac45281bdfd74939f8c01a29876fe21ee62ed.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec068454985de756c760317d9c63c23b3ce2055c">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_7499f5af228e1f93c0c18dc85117b7c82081028a.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f8bcd8ef93636064d155d8e8ea6541ea7e4280d0">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/gson-2.7_a875eb6145ce97a3f2f101f31991dc3189310b20.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="15632afee8c14c7c0ba7168d25710c38badee7c8">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_b33c60798a11921abaeefdcb0ab4b514bf07b361.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/frlibs/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f568c93ea95dc52018157aa67435d82c5362cc50">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/ftc_app-frlibs-unspecified_067bc9ded4c90a7678e4028494d578d3c500d716.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_5d413dc0335b01311c249e61e44ab78606e61c30.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ca5be875a082e7b5f0277a0e85564617b181ae76">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/Vuforia_efe45aa4fbc47c3998297f81dd9b097fc7cf1dce.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4d964a43f48520428edfadad534fa0a3279deb84">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_df7d60d2876f6d8bf8d87126527dd9a4c6f7f1d4.jar" />
+    </item>
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2a24cdb4bd53ff8f890698775608b84ab6703fe2">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_8edcc07a7c990aa86af35859dd3603bb846b9845.jar" />
+    </item>
+
+</items>

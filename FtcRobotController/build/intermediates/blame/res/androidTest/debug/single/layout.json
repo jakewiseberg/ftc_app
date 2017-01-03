@@ -20,8 +20,16 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\template_info.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/i2cs.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2cs.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_outputs.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_outputs.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/device_interface_module.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/device_interface_module.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/header.xml",
@@ -48,6 +56,10 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/item_list_parent.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/item_list_parent.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/servo_controller_banner.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_controller_banner.xml"
     },
@@ -64,12 +76,24 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_input_device.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_output_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_output_device.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/banner_parent.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/banner_parent.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_view_logs.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_view_logs.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\motor.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/servo_list.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_list.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\analog_output_device.xml",
@@ -90,6 +114,10 @@
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_blocks.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_blocks.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_config_wifi_direct.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_config_wifi_direct.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/item_list_parent.xml",
@@ -148,6 +176,10 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/button_list.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/digital_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/digital_device.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\orange_warning.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\orange_warning.xml"
     },
@@ -158,6 +190,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\shape.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\shape.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/loading_indicator_overlay.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/res/layout/loading_indicator_overlay.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_inspection.xml",
@@ -192,12 +228,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor_controller_banner.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_inspection.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\layout\\activity_inspection.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\info_button.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\info_button.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_inspection.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Inspection-release\\res\\layout\\activity_inspection.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_about.xml",
@@ -210,6 +246,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_ftc_controller.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_ftc_controller.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/darker_gray_line.xml",
@@ -244,12 +284,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_configure_from_template.xml"
     },
     {
-        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/orange_warning.xml",
-        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/orange_warning.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\analog_inputs.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\analog_inputs.xml"
+    },
+    {
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/orange_warning.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/orange_warning.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/legacy.xml",
@@ -268,6 +308,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_configure_from_template.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_configure_from_template.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\button_list.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\button_list.xml"
     },
@@ -276,12 +320,20 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_swap_usb_devices.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/darker_gray_line.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/darker_gray_line.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/header.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/bundles/debug/res/layout/header.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_programming_mode.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_programming_mode.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_swap_usb_devices.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_swap_usb_devices.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/shape.xml",
@@ -294,6 +346,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/pwm_device.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwm_device.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_configuration.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_configuration.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_input_device.xml",
@@ -324,12 +380,24 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_inputs.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/pwm_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwm_device.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_controller.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/bundles/debug/res/layout/activity_ftc_controller.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/item_list_parent.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/item_list_parent.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/button_list.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/button_list.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/legacy.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/legacy.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_inputs.xml",
@@ -384,6 +452,10 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_config_wifi_direct.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/header.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/bundles/debug/res/layout/header.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor_list.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_list.xml"
     },
@@ -436,8 +508,20 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/bundles/debug/res/layout/header.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/banner_parent.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/banner_parent.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor_controller_banner.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_controller_banner.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/servo.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_wifi_channel_selector.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_wifi_channel_selector.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_controller.xml",
@@ -446,6 +530,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_blocks.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_blocks.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/matrices.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrices.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\header.xml",
@@ -488,8 +576,16 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\analog_input_device.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/port_attached_row.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/port_attached_row.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/shape.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/servo_controller_banner.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_controller_banner.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/red_line.xml",
@@ -524,6 +620,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\device_interface_module.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/pwms.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_programming_mode.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_programming_mode.xml"
     },
@@ -536,8 +636,20 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_ftc_configuration.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/shape.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_input_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_input_device.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pwms.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\pwms.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/template_info.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/template_info.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_inputs.xml",
@@ -562,6 +674,10 @@
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_blocks.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_blocks.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_blocks.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_blocks.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_load.xml",
@@ -592,6 +708,10 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_about.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_about.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\info_button.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\info_button.xml"
     },
@@ -618,6 +738,14 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_configure_from_template.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_configure_from_template.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_inputs.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_inputs.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_programming_mode.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_programming_mode.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/matrices.xml",
@@ -664,6 +792,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_blocks.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor_list.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_list.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\file_info.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\file_info.xml"
     },
@@ -686,6 +818,14 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_programming_mode.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_programming_mode.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/red_line.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/red_line.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/orange_warning.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/orange_warning.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor_controller_banner.xml",
@@ -720,6 +860,10 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrix_devices.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor_controller_banner.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_controller_banner.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/port_attached_row.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/port_attached_row.xml"
     },
@@ -744,12 +888,20 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\activity_ftc_wifi_channel_selector.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/digital_devices.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/digital_devices.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_wifi_channel_selector.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_wifi_channel_selector.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/i2c_device.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2c_device.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/info_button.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/info_button.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pwm_device.xml",
@@ -766,6 +918,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\matrices.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\matrices.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_load.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_load.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\port_attached_row.xml",
@@ -788,6 +944,14 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\digital_devices.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/simple_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/simple_device.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/i2c_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2c_device.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_about.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_about.xml"
     },
@@ -798,6 +962,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/servo_list.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_list.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/file_info.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/file_info.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\digital_devices.xml",
@@ -812,6 +980,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/res/layout/loading_indicator_overlay.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/button_list.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/button_list.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\matrix_devices.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\matrix_devices.xml"
     },
@@ -822,6 +994,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/motor_list.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor_list.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_inspection.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/layout/activity_inspection.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_view_logs.xml",
@@ -900,6 +1076,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/digital_device.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/matrix_devices.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrix_devices.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\simple_device.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\simple_device.xml"
     },
@@ -914,6 +1094,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_configuration.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_configuration.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout/analog_outputs.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_outputs.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\i2cs.xml",

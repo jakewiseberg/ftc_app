@@ -24,6 +24,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\drawable-hdpi-v4\\button_shape.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/button_shape.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
     },
@@ -38,5 +42,9 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/button_shape.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable-hdpi-v4/button_shape.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
     }
 ]

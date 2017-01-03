@@ -18,5 +18,9 @@
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/release/drawable-mdpi-v4/ic_launcher.png",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/release/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/src/main/res/drawable-mdpi/ic_launcher.png"
     }
 ]
