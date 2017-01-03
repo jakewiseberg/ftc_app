@@ -1,14 +1,10 @@
-# Canary Builds :)
-Everyone needs canary builds.
+# Master Branch
+Stable, somewhat up to date, tested.
 
-##Warning
-This 9 times out of 10 will not be stable or tested. This does, however, include unsafe workarounds and such.
+## Rule of Thumb
+This branch has been tested dozens of times and is nearly guaranteed to work. If existing code somehow does not work, first check the common errors (is it on, is it wired, is there a hardware issue, is it configured, is it clearly broken in one situation).
 
-##TODO
-1. Reintegrate camera code, access to method using appContext
-2. Make autonomous beacons work perfectly.
-3. Launcher?
-
-##DUDE, WATCH OUT!
-Use Sentinel under frlibs (read the Readme for howto)
-Write code in FawkesRC
+## TODO
+1. Decrease camera resolution
+2. Gyroscopic movement
+3. Line tracking (? unnecessary)
