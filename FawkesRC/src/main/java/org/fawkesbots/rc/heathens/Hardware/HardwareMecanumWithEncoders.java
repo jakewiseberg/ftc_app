@@ -7,6 +7,8 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.fawkesbots.rc.heathens.DefSentinel;
+import org.fawkesbots.rc.vendetta.Auton;
+import org.fawkesbots.rc.vendetta.Sentinel;
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 /**
@@ -20,6 +22,7 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 public class HardwareMecanumWithEncoders extends HardwareMecanum {
 
+    public Auton og;
     float fl_target=0, fr_target=0, bl_target=0, br_target=0;
     public float COUNTS_PER_INCH = 0.0f;
 
@@ -33,9 +36,9 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     public float ticks = 1440.0f;
 /* NORMAL = 1120, NEVEREST40 = 1440, ETC */
 
-    public HardwareMecanumWithEncoders(HardwareMap hwMap, Telemetry tele) {
+    public HardwareMecanumWithEncoders(HardwareMap hwMap, Telemetry tele, Auton t) {
         super(hwMap);
-        tel=tele;
+        tel=tele; og=t;
         COUNTS_PER_INCH = (float)((ticks*GEAR_REDUCTION)/(WHEEL_DIAMETER * Math.PI));
     }
 
@@ -108,7 +111,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
         br.setTargetPosition((int)br_target);
         runEncoders();
         powerAll(fl_speed, fr_speed, bl_speed, br_speed);
-        while(checkEncoders() && (Math.abs(fr.getCurrentPosition())<Math.abs(fr_target))) {
+        while(checkEncoders() && og.opModeIsActive() && (Math.abs(fr.getCurrentPosition())<Math.abs(fr_target))) {
             tel.addData("Encoders",fr.getCurrentPosition()+", "+bl.getCurrentPosition()+", "+br.getCurrentPosition()); tel.update();
         }
         powerAll(0,0,0,0);
