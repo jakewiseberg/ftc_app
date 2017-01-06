@@ -49,10 +49,11 @@ public class BeaconUtil {
         log("started motion");
         EncodedDrive.strafeEncoded(-1*TILE,0.78f);
         log("strafed to next to mountain");
-        EncodedDrive.forwardEncoded(TILE, 0.78f);
+        EncodedDrive.forwardEncoded(TILE+9, 0.78f);
         log("moved another tile up");
         EncodedDrive.rotateEncoded(side * 16.7f, 0.78f);
         log("turn to face beacon");
+        EncodedDrive.forwardEncoded(TILE,0.78f);
     }
 
     //Red is 1, Blue is -1

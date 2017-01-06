@@ -12,20 +12,20 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/layout/activity_ftc_controller.xml"
     },
     {
-        "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/res/merged/debug/layout/motor.xml",
-        "source": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/header.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/layout/header.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/darker_gray_line.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/darker_gray_line.xml"
+        "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/res/merged/debug/layout/motor.xml",
+        "source": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/motor.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/analog_output_device.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_output_device.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/darker_gray_line.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/layout/darker_gray_line.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/layout/analog_inputs.xml",

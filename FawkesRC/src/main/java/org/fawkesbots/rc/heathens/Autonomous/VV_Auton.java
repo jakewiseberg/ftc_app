@@ -45,12 +45,12 @@ public class VV_Auton extends Auton {
 
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved forward");
-
-        Launcher.fire(.78f); sleep(1400); Launcher.fire(0.0f); //launch once
+/*
+        Launcher.fire(.78f); sleep(400); Launcher.fire(0.0f); //launch once
         Collector.collect(-.78f); sleep(1000); Flicker.flick(true); sleep(400);
         Collector.collect(0.0f); Flicker.flick(false); //collect another ball
-        Launcher.fire(.78f); sleep(1400); Launcher.fire(0.0f); //launch again
-
+        Launcher.fire(.78f); sleep(400); Launcher.fire(0.0f); //launch again
+*/
         BeaconFinder.moveToBeacon(side);
 
         int[] colors;

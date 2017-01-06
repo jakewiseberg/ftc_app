@@ -108,12 +108,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/i2c_device.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/pwms.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_view_logs.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_view_logs.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/pwms.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwms.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_programming_mode.xml",
@@ -164,20 +164,20 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/orange_warning.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/servo_list.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_list.xml"
-    },
-    {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\layout\\info_button.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\info_button.xml"
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_swap_usb_devices.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_swap_usb_devices.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/analog_input_device.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_input_device.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_swap_usb_devices.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_swap_usb_devices.xml"
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\layout\\info_button.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\info_button.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/servo_list.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_list.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\layout\\shape.xml",
@@ -188,12 +188,12 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/red_line.xml"
     },
     {
-        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/button_list.xml",
-        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/button_list.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/shape.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
+    },
+    {
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/button_list.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/button_list.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_about.xml",
@@ -228,12 +228,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_output_device.xml"
     },
     {
-        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_swap_usb_devices.xml",
-        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_swap_usb_devices.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_load.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_load.xml"
+    },
+    {
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/release/layout/activity_swap_usb_devices.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_swap_usb_devices.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\release\\layout\\servo.xml",
@@ -292,12 +292,12 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_output_device.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/pwm_device.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwm_device.xml"
-    },
-    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/release/layout/activity_view_logs.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_view_logs.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/layout/pwm_device.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwm_device.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/release/layout/servo_controller_banner.xml",
