@@ -12,12 +12,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/preferences.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pushbotsens.xml",

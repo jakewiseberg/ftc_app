@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\device_interface_module.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\device_interface_module.xml"
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/legacy.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/legacy.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/activity_blocks.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_blocks.xml"
     },
     {
-        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/legacy.xml",
-        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/legacy.xml"
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\device_interface_module.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\device_interface_module.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ftc_configuration.xml",
@@ -24,12 +24,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/layout/header.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ftc_controller.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\src\\main\\res\\layout\\activity_ftc_controller.xml"
-    },
-    {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/activity_programming_mode.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/layout/activity_programming_mode.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ftc_controller.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\src\\main\\res\\layout\\activity_ftc_controller.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/debug/layout/motor.xml",
@@ -140,12 +140,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_input_device.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/activity_ftc_wifi_channel_selector.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_wifi_channel_selector.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\debug\\layout\\activity_blocks.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\exploded-aar\\Blocks-release\\res\\layout\\activity_blocks.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/activity_ftc_wifi_channel_selector.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_wifi_channel_selector.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/debug/layout/activity_load.xml",
