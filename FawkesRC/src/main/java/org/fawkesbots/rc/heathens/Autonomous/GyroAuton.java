@@ -13,6 +13,8 @@ import org.fawkesbots.rc.vendetta.Auton;
 import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
 import org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity;
 import org.firstinspires.ftc.robotcore.external.navigation.AngularVelocity;
+import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
+import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 @Autonomous(
@@ -22,24 +24,23 @@ import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 public class GyroAuton extends Auton {
     public HardwareGyro Gyro;
-    public AngularVelocity v; public float angle;
+    public AngularVelocity v; public float angle; public Orientation o;
     @Override
     public void runOpMode() throws InterruptedException {
         Gyro = new HardwareGyro(hardwareMap);
-        Log.e("Gyro","Hello?");
+        log("Gyro","Hello?");
         Gyro.hardwareSetup();
-        Log.e("Gyro","Hello?????");
+        log("Gyro","Hello?????");
         Gyro.initialize();
         waitForStart();
-        telemetry.addData("Gyro", "Starting");
-        telemetry.update();
-        Log.e("Gyro", "Starting");
+        log("Gyro","Starting");
         while(true) {
-            Log.e("Gyro","Entered Loop");
-            angle = Gyro.getAngle();
+            log("Gyro", "Entered Loop");
+            o=Gyro.imu.getAngularOrientation().toAxesReference(AxesReference.INTRINSIC).toAxesOrder(AxesOrder.ZYX);
+            angle = o.firstAngle;
             telemetry.addData("Angle",angle);
             telemetry.update();
-            Log.e("Gyro","Finished a loop");
+            log("Gyro","Finished a loop");
         }
     }
 }

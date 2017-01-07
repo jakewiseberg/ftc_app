@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b3b4f278c9ed4e57b8d3ef8dfbef404c71bfdae">
+        <dex dex="/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/pre-dexed/debug/ftc_app-FtcRobotController-unspecified_b84cd8b981402644f7b50834f658134a31535d69.jar" />
+    </item>
+
+</items>

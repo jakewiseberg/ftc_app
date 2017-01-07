@@ -45,37 +45,41 @@ public class VV_Auton extends Auton {
 
         EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("moved forward");
-/*
+
         Launcher.fire(.78f); sleep(400); Launcher.fire(0.0f); //launch once
         Collector.collect(-.78f); sleep(1000); Flicker.flick(true); sleep(400);
         Collector.collect(0.0f); Flicker.flick(false); //collect another ball
         Launcher.fire(.78f); sleep(400); Launcher.fire(0.0f); //launch again
-*/
+
         BeaconFinder.moveToBeacon(side);
 
         int[] colors;
         try {
             colors = AutonCam.getBeaconColors();
-            log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
+            log((((side==-1)?"Red":"Blue"))+" on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
             BeaconFinder.hitBeacon(side, colors);
         }
         catch(Exception e) {
             e.printStackTrace();
         }
 
-        EncodedDrive.strafeEncoded(2*TILE,0.6f);
+        EncodedDrive.forwardEncoded(-TILE,0.78f);
+        EncodedDrive.rotateEncoded(-side*16.7f,.78f);
+        EncodedDrive.forwardEncoded(2*TILE,.78f);
+        EncodedDrive.rotateEncoded(side*16.7f,.78f);
 
         try {
             colors = AutonCam.getBeaconColors();
-            log("red on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
+            log((((side==-1)?"Red":"Blue"))+" on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
             BeaconFinder.hitBeacon(side, colors);
         }
         catch(Exception e) {
             e.printStackTrace();
         }
 
-        EncodedDrive.strafeEncoded(-2 * TILE, .6f);
-        EncodedDrive.forwardEncoded(-2.2f*TILE,.78f);
+        EncodedDrive.forwardEncoded(-TILE,0.78f);
+        EncodedDrive.rotateEncoded(side*24.7f,.78f);
+        EncodedDrive.forwardEncoded(TILE*3,0.78f);
         log("finished");
     }
 }

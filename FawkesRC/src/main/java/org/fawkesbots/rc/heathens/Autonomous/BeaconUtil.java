@@ -59,9 +59,9 @@ public class BeaconUtil {
     public void hitBeacon(int side, int[] colors) {
         EncodedDrive.forwardEncoded(20, 0.78f);
         log("pressing beacon");
-        if(colors[0]>colors[1]) { EncodedDrive.strafeEncoded(side*3,0.78f); EncodedDrive.forwardEncoded(4, .78f); EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side * -3, 0.78f); }
-        else if(colors[1]>colors[0]) { EncodedDrive.strafeEncoded(side * -3, .78f);  EncodedDrive.forwardEncoded(4, .78f);
-            EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side*3,0.78f); }
+        if(colors[0]>colors[1]) { EncodedDrive.strafeEncoded(side*7,0.78f); EncodedDrive.forwardEncoded(4, .78f); EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side * -7, 0.78f); }
+        else if(colors[1]>colors[0]) { EncodedDrive.strafeEncoded(side * -7, .78f);  EncodedDrive.forwardEncoded(6, .78f);
+            EncodedDrive.forwardEncoded(-6,.78f); EncodedDrive.strafeEncoded(side*7,0.78f); }
     }
 
 }

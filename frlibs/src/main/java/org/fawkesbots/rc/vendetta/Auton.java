@@ -5,6 +5,8 @@
 
 package org.fawkesbots.rc.vendetta;
 
+import android.util.Log;
+
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.util.RobotLog;
 import com.qualcomm.robotcore.util.ThreadPool;
@@ -117,12 +119,14 @@ public abstract class Auton extends OpMode {
     public boolean log(String loggable) {
         telemetry.addData(tag,loggable);
         telemetry.update();
+        Log.e(tag,loggable);
         return true;
     }
 
     public boolean log(String taggable, String loggable) {
         telemetry.addData(taggable,loggable);
         telemetry.update();
+        Log.e(taggable,loggable);
         return true;
     }
 

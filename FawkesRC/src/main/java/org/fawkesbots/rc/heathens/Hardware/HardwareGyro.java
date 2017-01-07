@@ -17,7 +17,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.Velocity;
  * Created by Priansh on 1/6/17.
  */
 public class HardwareGyro extends Sentinel {
-    BNO055IMU imu;
+    public BNO055IMU imu;
     Orientation angles;
     Acceleration gravity;
     HardwareMap hM;
@@ -30,7 +30,7 @@ public class HardwareGyro extends Sentinel {
         parameters.accelUnit           = BNO055IMU.AccelUnit.METERS_PERSEC_PERSEC;
         parameters.calibrationDataFile = "AdafruitIMUCalibration.json"; // see the calibration sample opmode
         parameters.accelerationIntegrationAlgorithm = new JustLoggingAccelerationIntegrator();
-
+        parameters.loggingEnabled=true; parameters.loggingTag="IMU";
         imu = hM.get(BNO055IMU.class, "imu");
         imu.initialize(parameters);
 
