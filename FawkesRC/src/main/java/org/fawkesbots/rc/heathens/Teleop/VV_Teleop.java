@@ -46,11 +46,11 @@ public class VV_Teleop extends OpMode {
     public void init() {
         Drive = new HardwareMecanum(hardwareMap);
         Sweeper = new HardwareCollector(hardwareMap); Launcher = new HardwareLauncher(hardwareMap);
-//        Lift = new HardwareLift(hardwareMap);
+        Lift = new HardwareLift(hardwareMap);
 
         Flicker = new HardwareServoBasic(hardwareMap,0.82f,0.0f,"flicker"); Arms = new HardwareServoBasic (hardwareMap,1.0f,0.0f,"arms");
         Drive.hardwareSetup(); Sweeper.hardwareSetup(); Launcher.hardwareSetup();
-        //Lift.hardwareSetup();
+        Lift.hardwareSetup();
         Flicker.hardwareSetup(); Arms.hardwareSetup();
         Flicker.flick(false); Arms.flick(false);
     }
@@ -59,6 +59,6 @@ public class VV_Teleop extends OpMode {
         Sweeper.collect(gamepad2.left_stick_y);
         Launcher.fire((gamepad2.right_trigger > 0.3) ? -0.78f :0);
         Flicker.flick(gamepad2.left_bumper||gamepad2.right_bumper); Arms.flick(gamepad2.a);
-        //Lift.rise(-1*gamepad2.right_stick_y);
+        Lift.rise(-1*gamepad2.right_stick_y);
     }
 }
