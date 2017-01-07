@@ -32,12 +32,12 @@ public class VV_Auton extends Auton {
     public void runOpMode() throws InterruptedException {
         side = ((FtcRobotControllerActivity)hardwareMap.appContext).color_side;
 
-        EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
+        EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry,this);
         EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1, 1, 1, 1);
         Flicker = new HardwareServoBasic(hardwareMap,0.82f,0.0f,"flicker"); Launcher = new HardwareLauncher(hardwareMap);
         Flicker.hardwareSetup(); Launcher.hardwareSetup();
         Collector = new HardwareCollector(hardwareMap); Collector.hardwareSetup();
-        AutonCam = new FawkesCam(hardwareMap);
+        AutonCam = new FawkesCam(hardwareMap,this);
         BeaconFinder = new BeaconUtil(telemetry,EncodedDrive);
         log("initialized");
 

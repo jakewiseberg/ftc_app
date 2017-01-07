@@ -164,12 +164,12 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_configure_from_template.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\motor_list.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor_list.xml"
-    },
-    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/layout/banner_parent.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/banner_parent.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\motor_list.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\motor_list.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/file_info.xml",
@@ -212,12 +212,12 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/pwm_device.xml"
     },
     {
-        "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_wifi_channel_selector.xml",
-        "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_wifi_channel_selector.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/analog_output_device.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/analog_output_device.xml"
+    },
+    {
+        "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_wifi_channel_selector.xml",
+        "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_wifi_channel_selector.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/device_interface_module.xml",
@@ -228,12 +228,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\layout\\i2cs.xml"
     },
     {
-        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/shape.xml",
-        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
-    },
-    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/layout/darker_gray_line.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/darker_gray_line.xml"
+    },
+    {
+        "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/shape.xml",
+        "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/shape.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/activity_programming_mode.xml",
@@ -244,12 +244,12 @@
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_configure_from_template.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_configuration.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_configuration.xml"
-    },
-    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/layout/servo_controller_banner.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/servo_controller_banner.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/layout/activity_ftc_configuration.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_ftc_configuration.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/layout/file_info.xml",

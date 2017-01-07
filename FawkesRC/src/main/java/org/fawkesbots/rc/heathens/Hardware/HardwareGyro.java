@@ -7,6 +7,8 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import org.fawkesbots.rc.vendetta.Sentinel;
 import org.firstinspires.ftc.robotcore.external.navigation.Acceleration;
 import org.firstinspires.ftc.robotcore.external.navigation.AngularVelocity;
+import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
+import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 import org.firstinspires.ftc.robotcore.external.navigation.Position;
 import org.firstinspires.ftc.robotcore.external.navigation.Velocity;
@@ -38,7 +40,8 @@ public class HardwareGyro extends Sentinel {
         imu.startAccelerationIntegration(new Position(), new Velocity(), 1000);
         return imu.isGyroCalibrated();
     }
-    public Orientation getAngle() {
+    public float getAngle() {return imu.getAngularOrientation().toAxesReference(AxesReference.INTRINSIC).toAxesOrder(AxesOrder.ZYX).firstAngle;}
+    public Orientation getOrientation() {
         return imu.getAngularOrientation();
     }
     public AngularVelocity getRate() {

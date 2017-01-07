@@ -22,7 +22,7 @@ public class MecanumEncoded extends Auton {
 
     @Override
     public void runOpMode() throws InterruptedException {
-        EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry);
+        EncodedDrive = new HardwareMecanumWithEncoders(hardwareMap,telemetry,this);
         EncodedDrive.hardwareSetup(); EncodedDrive.setSides(1,1,1,1);
         waitForStart();
 

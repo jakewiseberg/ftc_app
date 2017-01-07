@@ -17,7 +17,7 @@ public class Simple_CV extends Auton {
 
     @Override
     public void runOpMode() throws InterruptedException {
-        AutonCam = new FawkesCam(hardwareMap);
+        AutonCam = new FawkesCam(hardwareMap, this);
         waitForStart();
         int[] colors = AutonCam.getBeaconColors();
         telemetry.addData("Left/Right", colors[0] + ", " + colors[1]);

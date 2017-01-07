@@ -53,7 +53,6 @@ public class BeaconUtil {
         log("moved another tile up");
         EncodedDrive.rotateEncoded(side * 16.7f, 0.78f);
         log("turn to face beacon");
-        EncodedDrive.forwardEncoded(TILE,0.78f);
     }
 
     //Red is 1, Blue is -1

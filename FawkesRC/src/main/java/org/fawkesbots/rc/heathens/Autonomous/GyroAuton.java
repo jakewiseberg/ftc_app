@@ -1,5 +1,7 @@
 package org.fawkesbots.rc.heathens.Autonomous;
 
+import android.util.Log;
+
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 
 import org.fawkesbots.rc.heathens.Hardware.HardwareCollector;
@@ -20,18 +22,24 @@ import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 public class GyroAuton extends Auton {
     public HardwareGyro Gyro;
-    public AngularVelocity v; public Orientation o;
+    public AngularVelocity v; public float angle;
     @Override
     public void runOpMode() throws InterruptedException {
         Gyro = new HardwareGyro(hardwareMap);
+        Log.e("Gyro","Hello?");
         Gyro.hardwareSetup();
+        Log.e("Gyro","Hello?????");
         Gyro.initialize();
         waitForStart();
-        while(opModeIsActive()) {
-            v=Gyro.getRate(); o=Gyro.getAngle();
-            telemetry.addLine("Rate X: "+v.firstAngleRate+", Y: "+v.secondAngleRate+", Z: "+v.thirdAngleRate);
-            telemetry.addLine("Angle X: "+o.firstAngle+", Y: "+o.secondAngle+", Z: "+o.thirdAngle);
+        telemetry.addData("Gyro", "Starting");
+        telemetry.update();
+        Log.e("Gyro", "Starting");
+        while(true) {
+            Log.e("Gyro","Entered Loop");
+            angle = Gyro.getAngle();
+            telemetry.addData("Angle",angle);
             telemetry.update();
+            Log.e("Gyro","Finished a loop");
         }
     }
 }
