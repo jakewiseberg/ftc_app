@@ -8,6 +8,9 @@ import android.hardware.SensorManager;
 import android.util.Log;
 
 import com.qualcomm.robotcore.hardware.HardwareMap;
+
+import org.firstinspires.ftc.robotcore.external.Telemetry;
+
 /**
  * Created by hello_000 on 10/23/2016.
  */
@@ -21,15 +24,23 @@ public class Gyro implements SensorEventListener {
     float[] R2 = new float[9];
     float[] Imat = new float[9];
     float[] oData = new float[3];
+    float[] offsetData = new float[3];
     boolean haveGrav = false;
     boolean haveAccel = false;
     boolean haveMag = false;
     public final float DEG = 180.0f/(float)Math.PI;
     public final String TAG = "GYRO//";
 
+    Telemetry t;
+
     public Gyro(HardwareMap h) {
-        app = h.appContext; //HEHEHEHEHHEHHEHEHEHEH NIGBONIE
+        app = h.appContext;
     }
+
+    public Gyro(HardwareMap h, Telemetry te) {
+        app=h.appContext; t=te;
+    }
+
     public boolean init() {
         virgil = (SensorManager) app.getSystemService(Context.SENSOR_SERVICE);
         Sensor gsensor = virgil.getDefaultSensor(Sensor.TYPE_GRAVITY);
@@ -47,7 +58,18 @@ public class Gyro implements SensorEventListener {
         return true;
     }
 
+    public void setOffset(float[] offset) {
+        offsetData=offset;
+    }
+
     public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+
+    public float[] getRotation() {
+        float[] rot= {oData[0]-offsetData[0],oData[1]-offsetData[1],oData[2]-offsetData[2]};
+        for(int i = 0; i<3; i++)
+            rot[i]=(rot[i]<0)?rot[i]+360:(rot[i]>360)?360%rot[i]:rot[i];
+        return rot;
+    }
 
     public void onSensorChanged(SensorEvent event) {
         float[] data;
@@ -85,11 +107,17 @@ public class Gyro implements SensorEventListener {
                     SensorManager.AXIS_Y, SensorManager.AXIS_MINUS_X, R2);
             SensorManager.getOrientation(R2, orientation);
         }
-        Log.e(TAG,"Gyro:\n" +
+        Log.e(TAG,
                         "pitch: "+oData[0]+
                         "\nroll: "+oData[1]+
                         "\nyaw: "+oData[2]
         );
+        float[] x = getRotation();
+        t.addData(TAG,
+                "pitch: "+x[0]+
+                        "\nroll: "+x[1]+
+                        "\nyaw: "+x[2]
+        ); t.update();
     }
 
 }

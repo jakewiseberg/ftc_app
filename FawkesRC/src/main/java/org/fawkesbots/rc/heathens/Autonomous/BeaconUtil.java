@@ -47,21 +47,22 @@ public class BeaconUtil {
     //Red is 1, Blue is -1
     public void moveToBeacon(int side) {
         log("started motion");
-        EncodedDrive.strafeEncoded(-1*TILE,0.78f);
+        EncodedDrive.strafeEncoded(side*TILE,0.78f);
         log("strafed to next to mountain");
-        EncodedDrive.forwardEncoded(TILE+9, 0.78f);
+        EncodedDrive.forwardEncoded(TILE+7, 0.78f);
         log("moved another tile up");
-        EncodedDrive.rotateEncoded(side * 16.7f, 0.78f);
+        EncodedDrive.rotateEncoded(side * 17.7f, 0.78f);
         log("turn to face beacon");
     }
 
     //Red is 1, Blue is -1
     public void hitBeacon(int side, int[] colors) {
-        EncodedDrive.forwardEncoded(20, 0.78f);
+        EncodedDrive.forwardEncoded(TILE, 0.78f);
         log("pressing beacon");
-        if(colors[0]>colors[1]) { EncodedDrive.strafeEncoded(side*7,0.78f); EncodedDrive.forwardEncoded(4, .78f); EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side * -7, 0.78f); }
-        else if(colors[1]>colors[0]) { EncodedDrive.strafeEncoded(side * -7, .78f);  EncodedDrive.forwardEncoded(6, .78f);
-            EncodedDrive.forwardEncoded(-6,.78f); EncodedDrive.strafeEncoded(side*7,0.78f); }
+        EncodedDrive.rotateEncoded((float)(side*((colors[0]>colors[1])?-12:12)),0.78f);
+//        if(colors[0]>colors[1]) { EncodedDrive.strafeEncoded(side*7,0.78f); EncodedDrive.forwardEncoded(4, .78f); EncodedDrive.forwardEncoded(-4,.78f); EncodedDrive.strafeEncoded(side * -4, 0.78f); }
+  //      else if(colors[1]>colors[0]) { EncodedDrive.strafeEncoded(side * -4, .78f);  EncodedDrive.forwardEncoded(6, .78f);
+    //        EncodedDrive.forwardEncoded(-6,.78f); EncodedDrive.strafeEncoded(side*4,0.78f); }
     }
 
 }

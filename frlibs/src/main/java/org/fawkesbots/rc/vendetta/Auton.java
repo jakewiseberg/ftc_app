@@ -104,6 +104,7 @@ public abstract class Auton extends OpMode {
     public final void stop() {
         this.stopRequested = true;
         if(this.executorService != null) {
+            onStop();
             this.executorService.shutdownNow();
 
             try {
@@ -113,6 +114,10 @@ public abstract class Auton extends OpMode {
                 Thread.currentThread().interrupt();
             }
         }
+
+    }
+
+    public void onStop(){
 
     }
 

@@ -20,6 +20,8 @@ public class Simple_CV extends Auton {
         AutonCam = new FawkesCam(hardwareMap, this);
         waitForStart();
         int[] colors = AutonCam.getBeaconColors();
+        int side=-1;
+        log((((side==-1)?"Red":"Blue"))+" on " + ((colors[0] > colors[1]) ? "Left" : "Right"));
         telemetry.addData("Left/Right", colors[0] + ", " + colors[1]);
         telemetry.update();
     }
