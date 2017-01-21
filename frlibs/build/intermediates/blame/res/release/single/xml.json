@@ -28,6 +28,10 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/preferences.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/xml/pref_headers.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_headers.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/release/xml/preferences.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/preferences.xml"
     },
@@ -92,8 +96,16 @@
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/ftc_app-canary/FtcRobotController/unspecified/res/xml/device_filter.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/xml/pref_data_sync.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_data_sync.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/xml/k9legacybot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/xml/pref_general.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_general.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/xml/squarebot.xml",
@@ -138,5 +150,9 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/res/merged/release/xml/device_filter.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/release/xml/pref_notification.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_notification.xml"
     }
 ]

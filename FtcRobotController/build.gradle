@@ -27,3 +27,6 @@ repositories {
 }
 
 apply from: 'build.release.gradle'
+dependencies {
+    compile 'com.android.support:support-v4:19.+'
+}

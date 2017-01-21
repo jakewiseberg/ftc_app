@@ -15,7 +15,7 @@ ADDED from /Users/Priansh/Documents/github/ftc_app/FawkesRC/src/main/AndroidMani
 		INJECTED from /Users/Priansh/Documents/github/ftc_app/FawkesRC/src/main/AndroidManifest.xml
 application
 ADDED from /Users/Priansh/Documents/github/ftc_app/FawkesRC/src/main/AndroidManifest.xml:11:5-19
-MERGED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:16:5-44:19
+MERGED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:16:5-49:19
 MERGED from [:Inspection-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/AndroidManifest.xml:19:5-46:19
 MERGED from [:Blocks-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Blocks-release/AndroidManifest.xml:18:5-49:19
 MERGED from [:RobotCore-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/AndroidManifest.xml:61:5-93
@@ -25,7 +25,7 @@ MERGED from [:RobotCore-release:] /Users/Priansh/Documents/github/ftc_app/Fawkes
 MERGED from [:FtcCommon-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/AndroidManifest.xml:22:5-181:19
 MERGED from [:Analytics-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Analytics-release/AndroidManifest.xml:19:5-24:19
 MERGED from [ftc_app:frlibs:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/frlibs/unspecified/AndroidManifest.xml:20:5-20
-MERGED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:16:5-44:19
+MERGED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:16:5-49:19
 MERGED from [:Inspection-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/AndroidManifest.xml:19:5-46:19
 MERGED from [:Blocks-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Blocks-release/AndroidManifest.xml:18:5-49:19
 MERGED from [:RobotCore-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/AndroidManifest.xml:61:5-93
@@ -164,6 +164,13 @@ MERGED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/gi
 		ADDED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:43:13-35
 	android:name
 		ADDED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:42:13-76
+activity#org.firstinspires.ftc.robotcontroller.internal.CustomAuton
+ADDED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:45:9-48:20
+MERGED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:47:13-64
+	android:name
+		ADDED from [ftc_app:FtcRobotController:unspecified] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/AndroidManifest.xml:46:13-86
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [:Inspection-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/Inspection-release/AndroidManifest.xml:11:5-76
 MERGED from [:RobotCore-release:] /Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/RobotCore-release/AndroidManifest.xml:9:5-11:35

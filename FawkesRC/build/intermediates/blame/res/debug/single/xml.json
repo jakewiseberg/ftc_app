@@ -12,12 +12,12 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/preferences.xml"
     },
     {
-        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
-        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9usbbot.xml"
-    },
-    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9usbbot.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pushbotsens.xml",
@@ -26,6 +26,10 @@
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/device_filter.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_general.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pushbot.xml",
@@ -42,6 +46,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/squarebot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_data_sync.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/squarebot.xml",
@@ -66,6 +74,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/squarebot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_notification.xml"
     },
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/res/merged/debug/xml/squarebot.xml",
@@ -106,6 +118,10 @@
     {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FawkesRC/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9legacybot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FawkesRC/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_headers.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app_x/ftc_app/FawkesRC/build/intermediates/res/merged/debug/xml/preferences.xml",

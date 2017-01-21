@@ -80,6 +80,14 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/FtcCommon-release/res/xml/pushbotsens.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/xml/pref_notification.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_notification.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/xml/pref_general.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_general.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/res/merged/androidTest/debug/xml/device_filter.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/frlibs/build/intermediates/exploded-aar/ftc_app-canary/FtcRobotController/unspecified/res/xml/device_filter.xml"
     },
@@ -136,7 +144,15 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\ftc_app\\FtcRobotController\\unspecified\\res\\xml\\device_filter.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/xml/pref_data_sync.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_data_sync.xml"
+    },
+    {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\k9legacybot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\frlibs\\build\\intermediates\\exploded-aar\\FtcCommon-release\\res\\xml\\k9legacybot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/res/merged/androidTest/debug/xml/pref_headers.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/frlibs/build/intermediates/exploded-aar/ftc_app/FtcRobotController/unspecified/res/xml/pref_headers.xml"
     }
 ]

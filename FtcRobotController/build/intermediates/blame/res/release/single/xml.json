@@ -8,12 +8,20 @@
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\jakew\\Documents\\fawkes\\ftc_app\\FtcRobotController\\src\\main\\res\\xml\\preferences.xml"
     },
     {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pref_general.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/xml/pref_general.xml"
+    },
+    {
         "merged": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/res/merged/release/xml/squarebot.xml",
         "source": "/Users/krishenseth/Desktop/ftc_app-canary/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/squarebot.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/k9usbbot.xml",
         "source": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pref_notification.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/xml/pref_notification.xml"
     },
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\xml\\pushbot.xml",
@@ -50,6 +58,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\release\\xml\\preferences.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/C:\\Users\\hello_000\\Documents\\GitHub\\FawkeTW\\ftc_app\\FtcRobotController\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pref_data_sync.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/xml/pref_data_sync.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pushbot.xml",
@@ -98,6 +110,10 @@
     {
         "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pushbot.xml",
         "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/pref_headers.xml",
+        "source": "/Users/Priansh/Documents/github/ftc_app/FtcRobotController/src/main/res/xml/pref_headers.xml"
     },
     {
         "merged": "/Users/krishenseth/Documents/fawkes/ftc_app/FtcRobotController/build/intermediates/res/merged/release/xml/device_filter.xml",
