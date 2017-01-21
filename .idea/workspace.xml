@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/VV_Auton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="21" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="21" />
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3644#3645#0" expanded="true" />
@@ -43,139 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HardwareTank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareTank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2731#2732#0" expanded="false" />
-                <element signature="e#2759#2760#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HardwareServoBasic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareServoBasic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeaconUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/BeaconUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46226415">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FtcRobotControllerActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26516#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#6423#6424#0" expanded="false" />
-                <element signature="e#6458#6459#0" expanded="false" />
-                <element signature="e#19077#19078#0" expanded="false" />
-                <element signature="e#19142#19143#0" expanded="false" />
-                <element signature="e#20159#20160#0" expanded="false" />
-                <element signature="e#20204#20205#0" expanded="false" />
-                <element signature="e#21206#21274#0" expanded="false" />
-                <element signature="e#22089#22137#0" expanded="false" />
-                <element signature="e#23606#23664#0" expanded="false" />
-                <element signature="e#25209#25210#0" expanded="false" />
-                <element signature="e#25240#25241#0" expanded="false" />
-                <element signature="e#25293#25294#0" expanded="false" />
-                <element signature="e#25333#25334#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomAuton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/CustomAuton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3627#3628#0" expanded="false" />
-                <element signature="e#3700#3701#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VV_Auton_GYRO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/VV_Auton_GYRO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3889#3890#0" expanded="false" />
-                <element signature="e#3913#3914#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HardwareMecanumWithEncoders.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HardwareMecanumWithEncoders.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.9292453">
+              <caret line="96" column="67" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="67" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Auton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Auton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#5770#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1879#1880#0" expanded="false" />
-                <element signature="e#1945#1946#0" expanded="false" />
-                <element signature="e#1985#1986#0" expanded="false" />
-                <element signature="e#2022#2023#0" expanded="false" />
-                <element signature="e#2468#2469#0" expanded="false" />
-                <element signature="e#2501#2502#0" expanded="false" />
-                <element signature="e#2708#2709#0" expanded="false" />
-                <element signature="e#2741#2742#0" expanded="false" />
-                <element signature="e#5520#5521#0" expanded="false" />
-                <element signature="e#5573#5574#0" expanded="false" />
-                <element signature="e#5630#5631#0" expanded="false" />
-                <element signature="e#5675#5676#0" expanded="false" />
-                <element signature="e#5714#5715#0" expanded="false" />
-                <element signature="e#5760#5761#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gyro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Gyro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="118" column="38" selection-start-line="118" selection-start-column="38" selection-end-line="118" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -3645,7 +3518,6 @@
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitIMU.java" />
         <option value="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Camera/FawkesCam.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/GyroAuton.java" />
-        <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/testcode/TestInfiniteLoopLinear.java" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.java" />
@@ -3658,9 +3530,10 @@
         <option value="$PROJECT_DIR$/frlibs/src/main/java/org/fawkesbots/rc/vendetta/Gyro.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/VV_Auton_GYRO.java" />
         <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/CustomAuton.java" />
-        <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/VV_Auton.java" />
         <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/BeaconUtil.java" />
+        <option value="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" />
+        <option value="$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java" />
       </list>
     </option>
   </component>
@@ -4297,7 +4170,7 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937685" sideWeight="0.49697885" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -4536,30 +4409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26516#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6423#6424#0" expanded="false" />
-            <element signature="e#6458#6459#0" expanded="false" />
-            <element signature="e#19077#19078#0" expanded="false" />
-            <element signature="e#19142#19143#0" expanded="false" />
-            <element signature="e#20159#20160#0" expanded="false" />
-            <element signature="e#20204#20205#0" expanded="false" />
-            <element signature="e#21206#21274#0" expanded="false" />
-            <element signature="e#22089#22137#0" expanded="false" />
-            <element signature="e#23606#23664#0" expanded="false" />
-            <element signature="e#25209#25210#0" expanded="false" />
-            <element signature="e#25240#25241#0" expanded="false" />
-            <element signature="e#25293#25294#0" expanded="false" />
-            <element signature="e#25333#25334#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/CustomAuton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4572,14 +4421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareServoBasic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4588,10 +4429,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/BeaconUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8">
+          <caret line="322" column="59" selection-start-line="322" selection-start-column="59" selection-end-line="322" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/VV_Auton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="21" />
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3644#3645#0" expanded="true" />
@@ -4600,10 +4457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Autonomous/BeaconUtil.java">
+    <entry file="file://$PROJECT_DIR$/FawkesRC/src/main/java/org/fawkesbots/rc/heathens/Hardware/HardwareMecanumWithEncoders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46226415">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.9292453">
+          <caret line="96" column="67" selection-start-line="96" selection-start-column="67" selection-end-line="96" selection-end-column="67" />
           <folding />
         </state>
       </provider>

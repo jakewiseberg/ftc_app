@@ -151,7 +151,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   SurfaceHolder mHolder;
   public Camera mCamera;
   public boolean tookPic=false;
-
+  public RobotConfigFile configFile;
 
 
   protected class RobotRestarter implements Restarter {
@@ -241,7 +241,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
     cfgFileMgr = new RobotConfigFileManager(this);
 
     // Clean up 'dirty' status after a possible crash
-    RobotConfigFile configFile = cfgFileMgr.getActiveConfig();
+    configFile = cfgFileMgr.getActiveConfig();
     if (configFile.isDirty()) {
       configFile.markClean();
       cfgFileMgr.setActiveConfig(false, configFile);
@@ -305,7 +305,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
     updateUIAndRequestRobotSetup();
 
     cfgFileMgr.getActiveConfigAndUpdateUI();
-
+    color_side = ((configFile.getName().contains("ed"))?-1:1);
+    Log.e("CONFIGFILE", configFile.getName() + color_side);
     entireScreenLayout.setOnTouchListener(new View.OnTouchListener() {
       @Override
       public boolean onTouch(View v, MotionEvent event) {
@@ -318,6 +319,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   @Override
   protected void onResume() {
     super.onResume();
+    color_side = ((configFile.getName().contains("ed"))?-1:1);
+    Log.e("CONFIGFILE", configFile.getName() + color_side);
     RobotLog.vv(TAG, "onResume()");
   }
 

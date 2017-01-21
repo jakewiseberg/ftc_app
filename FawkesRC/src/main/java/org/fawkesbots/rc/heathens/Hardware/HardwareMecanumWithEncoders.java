@@ -76,7 +76,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean forwardEncoded(float inches, float speed) {
-        moveEncoders(inches,-inches,inches,-inches,speed,speed,speed,-speed);
+        moveEncoders(inches,-inches,inches,-inches,speed,speed,speed,speed);
         return true;
     }
 
@@ -94,7 +94,7 @@ public class HardwareMecanumWithEncoders extends HardwareMecanum {
     }
 
     public boolean rotateEncoded(float inches, float speed) {
-        moveEncoders(inches,inches,inches,inches,speed,speed,speed,-speed);
+        moveEncoders(inches,inches,inches,inches,speed,speed,speed,speed);
         return true;
     }
 
