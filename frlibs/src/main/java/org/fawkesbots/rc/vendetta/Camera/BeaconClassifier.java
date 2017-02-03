@@ -50,10 +50,10 @@ public class BeaconClassifier {
         int[] dimensions = {bmp.getHeight(),bmp.getWidth()};
         ARGB pixel = new ARGB(0);
         //we now traverse the left and right sides of the image independently
-        for(int y = 0; (y<(dimensions[HEIGHT])-10)&&(y<bmp.getHeight()); y=y+5) {
-            for (int x = 0; x < (dimensions[WIDTH]/2); x=x+5)
+        for(int y = dimensuons[height]/3; (y<(dimensions[HEIGHT]*2/3))&&(y<bmp.getHeight()); y=y+5) {
+            for (int x = dimensions[WIDTH]/6; x < (dimensions[WIDTH]/3); x=x+5)
                 colors[0] = colors[0] + ARGB.classify(pixel.set(bmp.getPixel(x, y)).getColor());
-            for (int x = (dimensions[WIDTH] / 2); x < dimensions[WIDTH]; x=x+5)
+            for (int x = (dimensions[WIDTH]*2/3); x < dimensions[WIDTH]*5/6; x=x+5)
                 colors[1] = colors[1] + ARGB.classify(pixel.set(bmp.getPixel(x, y)).getColor());
         }
         return colors;
