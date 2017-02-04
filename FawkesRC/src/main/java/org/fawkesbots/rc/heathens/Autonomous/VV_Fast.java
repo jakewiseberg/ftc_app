@@ -5,6 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import org.fawkesbots.rc.heathens.Hardware.HardwareCollector;
 import org.fawkesbots.rc.heathens.Hardware.HardwareLauncher;
 import org.fawkesbots.rc.heathens.Hardware.HardwareMecanumWithEncoders;
+import org.fawkesbots.rc.heathens.Hardware.HardwareSensors;
 import org.fawkesbots.rc.heathens.Hardware.HardwareServoBasic;
 import org.fawkesbots.rc.vendetta.Auton;
 import org.fawkesbots.rc.vendetta.Camera.FawkesCam;
@@ -29,7 +30,7 @@ public class VV_Fast extends Auton {
     public HardwareLauncher Launcher; public HardwareServoBasic Flicker;
     public HardwareCollector Collector;
     public FawkesCam AutonCam; public BeaconUtil BeaconFinder;
-
+   // public HardwareSensors Ultra;
     public float TILE=24; //length of a tile
 
     public int side = -1;
@@ -45,6 +46,7 @@ public class VV_Fast extends Auton {
         Collector = new HardwareCollector(hardwareMap); Collector.hardwareSetup();
         AutonCam = new FawkesCam(hardwareMap,this);
         BeaconFinder = new BeaconUtil(telemetry,EncodedDrive);
+        //Ultra= new HardwareSensors(hardwareMap);
         log("initialized");
 
         waitForStart();
@@ -56,8 +58,8 @@ public class VV_Fast extends Auton {
         Collector.collect(0.0f); Flicker.flick(false); //collect another ball
         ;Launcher.fire(-.78f); sleep(600); Launcher.fire(0.0f);
         EncodedDrive.rotateEncoded(-1, 0.78f);//launch again
-        EncodedDrive.forwardEncoded(2.030f*TILE, 0.78f);
-        EncodedDrive.rotateEncoded(-6.5f, 0.78f);
+        EncodedDrive.forwardEncoded(2.000f*TILE, 0.78f);
+        EncodedDrive.rotateEncoded(-5, 0.78f);
 
 
 
