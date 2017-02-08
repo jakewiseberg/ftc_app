@@ -33,16 +33,15 @@ public class FawkesCam {
         at.log("Camera", "Setting up");
         main.takePic();
         at.log("Camera", "Taking pic");
-        Log.e("Camera", "Shutter activated");
         while(!main.tookPic && at.opModeIsActive()){ }
         at.log("Camera","Took picture");
-        Log.e("Camera", "Took picture");
         image = main.getImageFile();
         at.log("Camera","Got image file");
-        Log.e("Camera","Got the image file");
+        main.mCamera.release();
+        main.mCamera = null;
+        at.log("Camera","Safely released");
         bmp = ImageUtil.bmpFromImage(image);
         at.log("Camera","Made bitmap");
-        Log.e("Camera","Made bitmap");
         return BeaconClassifier.processBitmap(bmp);
     }
 
