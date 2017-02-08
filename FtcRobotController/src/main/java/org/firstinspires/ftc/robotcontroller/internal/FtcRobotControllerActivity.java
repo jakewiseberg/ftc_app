@@ -391,7 +391,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   public void setCamera(Camera camera) {
     Log.e("Camera","Setting up camera");
     if(mCamera == camera) { return; }
-    Log.e("Camera","Releasing camera");
+    Log.e("Camera","Releasing camera in setcamera");
     stopPreviewAndFreeCamera();
     mCamera = camera;
 
@@ -418,7 +418,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
     if(mCamera!=null) {
       mCamera.stopPreview();
       mCamera.release();
-      Log.e("Camera","Releasing camera");
+      Log.e("Camera","Releasing camera in surfacedestroyed");
       mCamera = null;
     }
   }
@@ -466,8 +466,8 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
           Log.e("Camera", "Trying to take picture");
           Camera.Parameters parameters = mCamera.getParameters();
           List<String> focusModes = parameters.getSupportedFocusModes();
-          if (focusModes.contains(Camera.Parameters.FOCUS_MODE_AUTO)) {
-            parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO);
+          if (focusModes.contains(Camera.Parameters.FLASH_MODE_TORCH)) {
+            parameters.setFocusMode(Camera.Parameters.FLASH_MODE_TORCH);
           }
           mCamera.setParameters(parameters);
           mCamera.stopPreview();
@@ -525,7 +525,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
       // applications. Applications should release the camera immediately
       // during onPause() and re-open() it during onResume()).
       mCamera.release();
-      Log.e("Camera","Releasing camera");
+      Log.e("Camera","Releasing camera in stoppreviewandfreecamera");
       mCamera = null;
     }
   }
@@ -745,6 +745,7 @@ public class FtcRobotControllerActivity extends Activity implements SurfaceHolde
   private void releaseCameraAndPreview() {
     setCamera(null);
     if(mCamera!=null) {
+
       mCamera.release(); mCamera = null;
       Log.e("Camera","Releasing camera");
     }
