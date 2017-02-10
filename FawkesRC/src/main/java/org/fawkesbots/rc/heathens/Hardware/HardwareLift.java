@@ -23,10 +23,16 @@ public class HardwareLift extends Sentinel {
         return true;
     }
 
+
     public boolean rise(float speed) {
+        lift_uno.setMode(FawkesMotor.RunMode.RUN_USING_ENCODER);
+        lift_dos.setMode(FawkesMotor.RunMode.RUN_USING_ENCODER);
+        lift_uno.setMaxSpeed(420*5);
+        lift_dos.setMaxSpeed(420*5);
         lift_uno.power(speed);
         lift_dos.power(speed);
         return true;
     }
+
 
 }
